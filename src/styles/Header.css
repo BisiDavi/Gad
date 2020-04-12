@@ -5,7 +5,7 @@
 .header {
   display: grid;
   grid-column: 1/-1;
-  grid-template-columns: 4fr 26fr 4fr;
+  grid-template-columns: auto 15fr 2fr;
   grid-template-rows: 50px;
   grid-gap: 20px;
   border-bottom: 1px solid black;
@@ -21,7 +21,8 @@
 
 .logo h1 {
   margin: 0px;
-  padding: 0px;
+  padding-left: 10px;
+  color: black !important;
 }
 
 .login-signup {
@@ -61,4 +62,39 @@
 
 .login-signup .btn {
   padding: 4px;
+}
+
+/* @media only screen and (max-width: 768px) {
+  .header-overlay {
+    left: 15% !important;
+    font-size: 12px;
+  }
+} */
+
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+  .header .contact-list {
+    grid-template-columns: auto auto;
+  }
+  .header .login-signup {
+    display: none;
+  }
+  .header-overlay {
+    left: 3% !important;
+    padding: 5px !important;
+    font-size: 12px;
+  }
+  .header {
+    grid: display;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 5px;
+  }
+
+  .logo h1 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: px;
+  }
+  .login-signup {
+    grid-template-columns: auto auto;
+  }
 }

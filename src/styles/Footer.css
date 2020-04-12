@@ -1,15 +1,16 @@
 .footer {
   display: grid;
-  grid-template-rows: 200px 5px;
+  grid-template-rows: 200px 35px;
   grid-gap: 10px;
   background: rgba(0, 0, 0, 0.1);
   padding: 20px;
+  padding-bottom: 0px;
 }
 
 .footer-main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
+  /* justify-items: center; */
 }
 
 .footer-bottom {
@@ -22,7 +23,18 @@
 .section-1 {
   display: grid;
   align-items: center;
-  width: 200px;
+  width: auto;
+  font-size: 20px;
+}
+
+.section-1 a{
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+.section-1 a:hover {
+    color: blueviolet;
+    font-size: 20px;
 }
 
 .section-1 li,
@@ -36,4 +48,19 @@ a {
 .footer-bottom .love {
   color: red;
   font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+  .footer {
+    grid-template-columns: auto;
+    padding: 20px;
+    grid-template-rows: auto 30px;
+  }
+  .footer-main {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+  .section-1 {
+    padding-bottom: 20px;
+  }
 }

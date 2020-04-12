@@ -1,12 +1,16 @@
 import React from 'react';
 import '../styles/Header.css';
-import Button from '../components/Button'
+import Button from '../components/Button';
+import { Link } from 'react-router-dom';
+
 
 const Header = () => {
   return (
     <div className="header">
       <div className="logo">
-        <h1>G <span className="make_red">A</span> D</h1>
+        <Link to='/'>
+          <h1>G <span className="make_red">A</span> D</h1>
+        </Link>
       </div>
       <div className="contact-list">
         <div className="icons">
