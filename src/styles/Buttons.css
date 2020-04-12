@@ -1,0 +1,22 @@
+.button .btn {
+  background: rgba(49, 29, 206, 0.89);
+  color: white;
+  border-radius: 50px;
+  padding: 2px 7px 4px 8px;
+}
+
+.button .btn:hover {
+  background: rgba(0, 0, 0, 0.3);
+  color: red;
+}
+
+/* .login-signup .btn {
+  padding: 5px;
+}
+.login-signup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    margin: 7px 15px;
+} */

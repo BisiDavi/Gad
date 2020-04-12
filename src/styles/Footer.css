@@ -1,0 +1,39 @@
+.footer {
+  display: grid;
+  grid-template-rows: 200px 5px;
+  grid-gap: 10px;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.footer-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  border-top: 1px dotted black;
+}
+
+.section-1 {
+  display: grid;
+  align-items: center;
+  width: 200px;
+}
+
+.section-1 li,
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer-bottom .love {
+  color: red;
+  font-size: 25px;
+}
