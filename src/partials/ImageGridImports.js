@@ -1,3 +1,0 @@
-const ImageGridImports = module.exports{
-
-}

@@ -25,16 +25,21 @@
   align-items: center;
   width: auto;
   font-size: 20px;
+  padding-left: 40px;
 }
 
-.section-1 a{
+.section-1 h4 {
+  color: black;
+}
+
+.section-1 a {
   font-size: 18px;
   transition: all 0.5s;
 }
 
 .section-1 a:hover {
-    color: blueviolet;
-    font-size: 20px;
+  color: red;
+  font-size: 20px;
 }
 
 .section-1 li,
@@ -48,6 +53,10 @@ a {
 .footer-bottom .love {
   color: red;
   font-size: 25px;
+}
+
+.verrb {
+  display: none;
 }
 
 @media only screen and (max-width: 768px) and (min-width: 300px) {

@@ -12,14 +12,10 @@ const Header = () => {
           <h1>G <span className="make_red">A</span> D</h1>
         </Link>
       </div>
-      <div className="contact-list">
-        <div className="icons">
+      <div className="contact-list">        
           <i className="fas fa-phone-alt"></i>
-          <i className="fab fa-whatsapp"></i>
-        </div>
-        <div className="phone-numbers">
-          <p>0810 347 2314</p>
-        </div>
+          <i className="fab fa-whatsapp"></i>                
+          <p>0810 347 2314</p>        
       </div>
       <div className="login-signup">
         <Button name="Login" />

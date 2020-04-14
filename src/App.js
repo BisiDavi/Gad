@@ -1,23 +1,14 @@
 import React from 'react';
-import Header from './partials/Header';
-import Footer from './partials/Footer';
-import GridOverlay from './partials/GridOverlay';
+import { Header, Footer, GridOverlay } from './partials';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import About from './pages/About';
-import Services from './pages/Services';
-import Index from './pages/Index';
-import Contact from './pages/Contact';
-import Barber from './artisans/Barber';
-import Plumber from './artisans/Plumbers';
-import carpenter from './artisans/carpenter';
-import Cobbler from './artisans/Cobbler';
-import Electrician from './artisans/Electrician';
-import FashionDesigner from './artisans/FashionDesigner';
-import Mechanic from './artisans/Mechanic';
-import Painter from './artisans/Painter';
-import BrickLayer from './artisans/Bricklayer';
+import { About, Services, Contact, index } from './pages';
+import {
+  Barber, BrickLayer, carpenter, Cobbler, Electrician, Mechanic,
+  FashionDesigner, Painter, Plumber
+} from './artisans';
 import { Ripple } from 'react-preloaders';
 import './App.css';
+import HireArtisan from './components/HireArtisan';
 
 function App() {
   return (
@@ -27,7 +18,7 @@ function App() {
           <Header />
           <GridOverlay />
           <Switch>
-            <Route path="/" exact component={Index} />
+            <Route path="/" exact component={index} />
             <Route path="/about" component={About} />
             <Route path="/services" component={Services} />
             <Route path="/contact" component={Contact} />
@@ -41,6 +32,7 @@ function App() {
             <Route path="/painter" component={Painter} />
             <Route path="/bricklayer" component={BrickLayer} />
           </Switch>
+          <HireArtisan />
           <Footer />
         </div>
       </Router>

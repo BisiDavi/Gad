@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../components/Button';
-import TypingEffect from './TypingEffect'
+import { TypingEffect } from '.';
 import '../styles/HeaderOverlay.css';
 
 let HeaderOverlay = () => {

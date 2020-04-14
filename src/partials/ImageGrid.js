@@ -1,19 +1,9 @@
 import React from 'react';
 import '../styles/imagegrid.css';
-import barber from '../img/img/barber.jpg';
-import bricklayer from '../img/img/bricklayer.jpg';
-import tailor from '../img/img/tailor.jpg';
-import carpenter from '../img/img/carpenter.jpg';
-import cobbler from '../img/img/cobbler.jpeg';
-import electrician from '../img/img/electrician.jpg';
-import fashiondesigner from '../img/img/fashiondesigner.jpg';
-import laundry from '../img/img/laundry.jpg';
-import mechanic from '../img/img/mechanic.jpg';
-import painterhouse from '../img/img/painterhouse.png';
-import painter from '../img/img/painter.jpg';
-import plumbers from '../img/img/plumbers.jpg';
-import Salon from '../img/img/Salon.jpg';
-import welder from '../img/img/welder.png';
+import {
+  barber, bricklayer, tailor, carpenter, cobbler, electrician, fashiondesigner,
+  laundry, mechanic, painterhouse, painter, plumber, Salon, welder
+} from '.'
 import { Link } from 'react-router-dom';
 
 
@@ -37,7 +27,7 @@ let ImageGrid = () => {
           <div className="hexIn">
             <Link to='/plumber' className="hexLink">
               <div className='img' >
-                <img src={plumbers} alt="hire a plumber" />
+                <img src={plumber} alt="hire a plumber" />
               </div>
               <h1 id="demo1">Hire a Professional Plumber</h1>
               <p id="demo2">Get Connected</p>

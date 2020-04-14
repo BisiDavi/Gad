@@ -1,0 +1,47 @@
+.hirenow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+}
+
+.available-artisans {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.available-artisans h1 {
+  grid-column: 1/-1;
+}
+
+.available-artisans a {
+  padding: 5px;
+  transition: all 0.5s;
+}
+.available-artisans a:hover {
+  font-size: 18px;
+  color: red;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+  .artisans {
+    grid-template-columns: auto auto ;
+    grid-gap: 10px;    
+    margin: 0px;
+  }
+
+  .card {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .card img {
+    width: 160px;
+    padding: 0px;
+    height: 150px;
+    margin: 0px;
+  }
+
+  .card:nth-child(2n){
+    display:none;
+  }
+}

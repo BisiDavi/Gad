@@ -1,6 +1,5 @@
 import React from 'react';
-import ImageGrid from './ImageGrid';
-import HeaderOverlay from './Header-overlay';
+import { ImageGrid, HeaderOverlay } from '.';
 import '../styles/GridOverlay.css';
 
 let GridOverlay = () => {

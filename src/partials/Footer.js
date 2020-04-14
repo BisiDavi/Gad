@@ -8,12 +8,14 @@ let Footer = () => {
     <div className="footer">
       <div className="footer-main">
         <div className="section-1">
-          <h4>G<span className="make_red">A</span>D</h4>
-          <Link to="/about">About us</Link>          
+          <Link to="/">
+            <h4>G<span className="make_red">A</span>D</h4>
+          </Link>
+          <Link to="/about">About us</Link>
           <li><a href="#service">Terms of Services</a></li>
           <li><a href="#policy">Privacy Policy</a></li>
           <Link to="/services">Services</Link>
-          <Link to="/contact">Contact us</Link>           
+          <Link to="/contact">Contact us</Link>
         </div>
         <div className="section-2">
           <h4>PORT HARCOURT</h4>
@@ -30,7 +32,7 @@ let Footer = () => {
       </div>
       <div className="footer-bottom">
         <p>&#169; copyright 2020. All Rights Reserved </p>
-        <p>Made with <span className="love">&#9829;</span>  By <span>Verrb Inc.</span></p>
+        <p>Made with <span className="love">&#9829;</span>  <span className="verrb">By Verrb Inc.</span></p>
       </div>
     </div>
   )

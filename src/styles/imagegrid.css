@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background: rgba(123, 158, 158, 0.5);
-}
+
+/* body {
+   background:rgba(123, 158, 158, 0.5); }
+}  */
+
+
 .grid {
-  top: 55px !important;
   position: relative;
   margin-bottom: 50px;
 }
@@ -215,18 +217,31 @@ body {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   /* <- 2-1  hexagons per row */
   #hexGrid {
     padding-bottom: 11.2%;
     font-size: 12px;
   }
+
   .hex {
     width: 50%; /* = 100 / 3 */
   }
+
   .hex:nth-child(3n + 3) {
     /* first hexagon of even rows */
     margin-left: 25%; /* = width of .hex / 2  to indent even rows */
+    display: none;
+  }
+  .hex:nth-child(2n) {
+    display: none;
+  }
+  .hex:nth-child(5n) {
+    display: none;
+  }
+  .grid {
+    top: 0px !important;
+    margin-bottom: 0px;
   }
 }
 
@@ -234,4 +249,7 @@ body {
   #hexGrid {
     font-size: 8px;
   }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 300px) {
 }
