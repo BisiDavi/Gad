@@ -1,11 +1,11 @@
 import React from 'react';
 import { Header, Footer, GridOverlay } from './partials';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { About, Services, Contact, index } from './pages';
+import { About, Services, Contact, index } from './pages/index';
 import {
   Barber, BrickLayer, carpenter, Cobbler, Electrician, Mechanic,
   FashionDesigner, Painter, Plumber
-} from './artisans';
+} from './artisans/index';
 import { Ripple } from 'react-preloaders';
 import './App.css';
 import HireArtisan from './components/HireArtisan';

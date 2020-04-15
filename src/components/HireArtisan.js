@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import '../styles/HireArtisan.css';
+import { artisanGrid } from '../partials';
 
 const HireArtisan = () => {
   return (
     <div className="hirenow">
-      <img src="" alt="hire an artisan" />
+      <img src={artisanGrid} alt="hire an artisan" />
       <div className="available-artisans">
         <h1>Hire A Certified Artisan today</h1>
         <Link to="">

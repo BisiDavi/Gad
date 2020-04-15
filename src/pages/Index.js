@@ -3,7 +3,7 @@ import Card from '../components/Card';
 import '../styles/Index.css';
 import {
   hairdresser, electricianwork, carpentercutting, barberlogo,
-  mechanic, cobbler, bricklayer, plumber
+  mechanic, cobbler, bricklayer, plumber, todo, schedule, getMatched, done
 } from '../partials';
 export { default as About } from './About';
 export { default as Services } from './Services';
@@ -43,22 +43,22 @@ const Index = () => {
       <div className="howGadWorks">
         <h3> How It Works </h3>
         <div className="describeTask">
-          <img className="" alt="select a qualified artisan" />
+          <img src={todo} alt="select a qualified artisan" />
           <h4>DESCRIBE THE TASK</h4>
           <p>There are varieties of home services just for you, choose a qalified Artisan.</p>
         </div>
         <div className="getMatched">
-          <img className="" alt="get matched to a qualified artisan" />
+          <img src={getMatched} alt="get matched to a qualified artisan" />
           <h4>GET MATCHED IMMEDIATELY</h4>
           <p>Select from a list of fully vetted and certified Artisans required for your service of choice.</p>
         </div>
         <div className="makeSchedule">
-          <img className="" alt="make a schedule with a qualified artisan" />
+          <img src={schedule} alt="make a schedule with a qualified artisan" />
           <h4>MAKE A SCHEDULE</h4>
           <p>Choose a day and time you’d like your preferred qualified Artisan to show up </p>
         </div>
         <div className="taskDone">
-          <img className="" alt="select a qualified artisan" />
+          <img src={done} alt="select a qualified artisan" />
           <h4>GET THE TASK DONE </h4>
           <p>Without further a do , your service agent arrives and gets the job done.  Payments are seamless.</p>
         </div>

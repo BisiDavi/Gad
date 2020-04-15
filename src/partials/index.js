@@ -19,6 +19,13 @@ export { default as hairdresser} from '../img/hair-spray.jpg';
 export { default as electricianwork} from '../img/electrican-at-work.jpg';
 export { default as carpentercutting} from '../img/carpenter-cutting.jpg';
 export { default as barberlogo} from '../img/barber.jpg';
+export { default as artisanGrid } from '../img/artisan-grid.png';
+export { default as schedule } from '../img/schedule.png';
+export { default as todo } from '../img/todo.png';
+export { default as getMatched } from '../img/get-matched.png';
+export { default as done } from '../img/done.jpg';
+
+
 
 export { default as Header } from './Header';
 export { default as Footer } from './Footer';

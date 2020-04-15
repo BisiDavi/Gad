@@ -36,6 +36,14 @@
   grid-template-columns: repeat(auto-fit, 300px);
 }
 
+.howGadWorks img {
+  height: 100px;
+  width: 100px;
+  margin: auto auto;
+  display:grid;
+  padding:10px;
+}
+
 .howGadWorks h3 {
   text-align: center;
   grid-column: 1/-1;
