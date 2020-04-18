@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/gad/static/css/main.4eaf7bf8.chunk.css",
+    "main.js": "/gad/static/js/main.984d6593.chunk.js",
+    "main.js.map": "/gad/static/js/main.984d6593.chunk.js.map",
+    "runtime-main.js": "/gad/static/js/runtime-main.6917c3a2.js",
+    "runtime-main.js.map": "/gad/static/js/runtime-main.6917c3a2.js.map",
+    "static/js/2.1af2fcc1.chunk.js": "/gad/static/js/2.1af2fcc1.chunk.js",
+    "static/js/2.1af2fcc1.chunk.js.map": "/gad/static/js/2.1af2fcc1.chunk.js.map",
+    "index.html": "/gad/index.html",
+    "precache-manifest.cc18bbaa83b244d1b8218d3508bae775.js": "/gad/precache-manifest.cc18bbaa83b244d1b8218d3508bae775.js",
+    "service-worker.js": "/gad/service-worker.js",
+    "static/css/main.4eaf7bf8.chunk.css.map": "/gad/static/css/main.4eaf7bf8.chunk.css.map",
+    "static/js/2.1af2fcc1.chunk.js.LICENSE.txt": "/gad/static/js/2.1af2fcc1.chunk.js.LICENSE.txt",
+    "static/media/Salon.jpg": "/gad/static/media/Salon.b50f33b3.jpg",
+    "static/media/artisan-grid.png": "/gad/static/media/artisan-grid.4fa81ae8.png",
+    "static/media/barber.jpg": "/gad/static/media/barber.bdf2d18f.jpg",
+    "static/media/bricklayer.jpg": "/gad/static/media/bricklayer.d23a740c.jpg",
+    "static/media/carpenter-cutting.jpg": "/gad/static/media/carpenter-cutting.2b5db8a4.jpg",
+    "static/media/carpenter.jpg": "/gad/static/media/carpenter.bffe12a1.jpg",
+    "static/media/cobbler.jpeg": "/gad/static/media/cobbler.9f440ca0.jpeg",
+    "static/media/done.jpg": "/gad/static/media/done.fd4760ea.jpg",
+    "static/media/electrican-at-work.jpg": "/gad/static/media/electrican-at-work.c75d45fd.jpg",
+    "static/media/electrician.jpg": "/gad/static/media/electrician.aa754edc.jpg",
+    "static/media/fashiondesigner.jpg": "/gad/static/media/fashiondesigner.0b46bf5f.jpg",
+    "static/media/hair-spray.jpg": "/gad/static/media/hair-spray.4c80b40b.jpg",
+    "static/media/laundry.jpg": "/gad/static/media/laundry.0f683749.jpg",
+    "static/media/mechanic.jpg": "/gad/static/media/mechanic.c255c553.jpg",
+    "static/media/painter.jpg": "/gad/static/media/painter.63334fd9.jpg",
+    "static/media/painterhouse.png": "/gad/static/media/painterhouse.e9db0cdc.png",
+    "static/media/plumbers.jpg": "/gad/static/media/plumbers.8e3f5fb0.jpg",
+    "static/media/tailor.jpg": "/gad/static/media/tailor.b4e42c75.jpg",
+    "static/media/welder.png": "/gad/static/media/welder.b6c442c3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6917c3a2.js",
+    "static/js/2.1af2fcc1.chunk.js",
+    "static/css/main.4eaf7bf8.chunk.css",
+    "static/js/main.984d6593.chunk.js"
+  ]
+}
