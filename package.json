@@ -2,7 +2,7 @@
   "name": "gad",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bisidavi.github.io/gad",
+  "homepage": "http://BisiDavi.github.io/Gad",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
