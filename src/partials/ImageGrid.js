@@ -5,6 +5,7 @@ import {
   laundry, mechanic, painterhouse, painter, plumber, Salon, welder
 } from '.'
 import { Link } from 'react-router-dom';
+import GridImage from '../components/gridImage';
 
 
 
@@ -14,13 +15,20 @@ let ImageGrid = () => {
       <ul id="hexGrid">
         <li className="hex">
           <div className="hexIn">
-            <Link to="/barber" className="hexLink">
+            <GridImage
+              linkroute="/barber"
+              gridimg={barber}
+              imgalt="hire a barber"
+              text1="Need a Professional Barber"
+              text2="Get Connected"
+            />
+            {/**<Link to="/barber" className="hexLink">
               <div className='img'>
                 <img src={barber} alt="hire a barber" />
               </div>
               <h1 id="demo1">Need a Professional Barber</h1>
               <p id="demo2">Get Connected</p>
-            </Link>
+  </Link>*/}
           </div>
         </li>
         <li className="hex">
