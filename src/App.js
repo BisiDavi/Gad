@@ -1,14 +1,12 @@
 import React from 'react';
-import { Header, Footer, GridOverlay } from './partials';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { About, Services, Contact, index } from './pages/index';
 import {
-  Barber, BrickLayer, carpenter, Cobbler, Electrician, Mechanic,
-  FashionDesigner, Painter, Plumber
-} from './artisans/index';
+  About, Services, Contact, Index, Bricklayer, Electrician, Mechanic, HireArtisan,
+  Fashiondesigner, Painter, Plumber, homedecor, camera, eventplanner, Header, Footer, GridOverlay
+} from './partials';
 import { Ripple } from 'react-preloaders';
 import './App.css';
-import HireArtisan from './components/HireArtisan';
+
 
 function App() {
   return (
@@ -18,19 +16,19 @@ function App() {
           <Header />
           <GridOverlay />
           <Switch>
-            <Route path="/" exact component={index} />
+            <Route path="/" exact component={Index} />
             <Route path="/about" component={About} />
             <Route path="/services" component={Services} />
             <Route path="/contact" component={Contact} />
-            <Route path="/barber" component={Barber} />
+            <Route path="/homedecor" component={homedecor} />
             <Route path="/plumber" component={Plumber} />
-            <Route path="/carpenter" component={carpenter} />
-            <Route path="/cobbler" component={Cobbler} />
+            <Route path="/photographer" component={camera} />
+            <Route path="/eventplanner" component={eventplanner} />
             <Route path="/electrician" component={Electrician} />
-            <Route path="/fashion-designer" component={FashionDesigner} />
+            <Route path="/fashion-designer" component={Fashiondesigner} />
             <Route path="/mechanic" component={Mechanic} />
             <Route path="/painter" component={Painter} />
-            <Route path="/bricklayer" component={BrickLayer} />
+            <Route path="/bricklayer" component={Bricklayer} />
           </Switch>
           <HireArtisan />
           <Footer />

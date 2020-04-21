@@ -23,9 +23,12 @@
 
 @media only screen and (max-width: 768px) and (min-width: 300px) {
   .header-overlay {
-    left: 0% !important;
+    left: 4% !important;
     padding: 5px !important;
-    font-size: 12px;
     top: 120px;
+  }
+
+  .text-overlay{
+    font-size:10px;
   }
 }

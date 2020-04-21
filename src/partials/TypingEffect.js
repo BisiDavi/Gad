@@ -9,7 +9,7 @@ const TypingEffect = () => {
         Hire a Professional
         <span className="text-spell">
           <ReactTypingEffect
-            text={[" Welder ", " Electrician ", " Carpenter ", " Technician ", " Painter ", " Fashion Designer ", " Brick-layer ", " Hair Dresser "]}
+            text={[" Event Planner ", " Electrician ", " Photographer ", " Technician ", " Makeup ", " Fashion Designer ", " Home decor ", " Hair Stylist "]}
           />
         </span>
        Now.
