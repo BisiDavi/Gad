@@ -6,7 +6,7 @@ const TypingEffect = () => {
   return (
     <div className="text-overlay">
       <h1>
-        Hire a Professional
+        Hire a Skilled
         <span className="text-spell">
           <ReactTypingEffect
             text={[" Event Planner ", " Electrician ", " Photographer ", " Plumber ", " Makeup ", " Fashion Designer ", " Home decor ", " Hair Stylist "]}
