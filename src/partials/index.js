@@ -15,7 +15,7 @@ export { default as schedule } from '../img/schedule.png';
 export { default as photography } from '../img/photography.jpg';
 export { default as todo } from '../img/todo.png';
 export { default as getMatched } from '../img/get-matched.png';
-export { default as done } from '../img/done.jpg';
+export { default as done } from '../img/done.png';
 export { default as Background } from '../img/main-background.jpg';
 export { default as homedecor } from '../img/home-decor.jpg';
 export { default as homedecor2 } from '../img/homedecor.jpg';
