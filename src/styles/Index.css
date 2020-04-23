@@ -28,7 +28,7 @@ span.greet {
 
 .index hr {
   align-content: center;
-  width: 40%;
+  width: 50%;
   margin: auto auto;
   color: violet;
 }
@@ -73,8 +73,39 @@ span.greet {
 }
 
 @media only screen and (max-width: 768px) and (min-width: 300px) {
+  h1.title {
+    margin: 0px !important;
+  }
+  .data {
+    padding-bottom: 5px;
+  }
+  .data .menu-content {
+    display: none;
+  }
+  .content .author {
+    display: none;
+  }
+  label.menu-button {
+    display: none;
+  }
+  .data input#show-menu {
+    display: none !important;
+  }
+  .data h1 {
+    margin: 0px;
+  }
+  .wrapper .data {
+    height: 30px;
+    padding: 0px 0px 10px 0px;
+    background: white;
+  }
+  .header .logo {
+    margin-top: -5px;
+    text-align: center;
+    padding: 0px;
+  }
   .index h1 {
-    font-size: 17px;
+    font-size: 16px;
   }
   .howGadWorks {
     grid-template-columns: repeat(2, 1fr) !important;
@@ -112,6 +143,10 @@ span.greet {
 }
 
 @media (min-width: 300px) and (max-width: 500px) {
+  .greetuser {
+    font-size: 14px !important;
+    line-height: 1.2rem;
+  }
   .form-wrapper {
     width: 85% !important;
   }
