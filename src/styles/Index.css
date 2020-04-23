@@ -105,9 +105,25 @@ span.greet {
 }
 
 /*-------------------------------------*/
+@media (min-width: 1200px) {
+  .form-wrapper {
+    width: 450px !important;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .form-wrapper {
+    width: 85% !important;
+  }
+  .form-wrapper button {
+    width: 30% !important;
+  }
+  .form-wrapper input {
+    width: 65% !important;
+  }
+}
 
 .form-wrapper {
-  width: 450px;
   padding: 15px;
   margin: 20px auto 20px auto;
   background: #444;
