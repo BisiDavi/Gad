@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Gad/static/css/main.de4863f5.chunk.css",
-    "main.js": "/Gad/static/js/main.6090754a.chunk.js",
-    "main.js.map": "/Gad/static/js/main.6090754a.chunk.js.map",
+    "main.css": "/Gad/static/css/main.d4ffb676.chunk.css",
+    "main.js": "/Gad/static/js/main.9cc738e4.chunk.js",
+    "main.js.map": "/Gad/static/js/main.9cc738e4.chunk.js.map",
     "runtime-main.js": "/Gad/static/js/runtime-main.d395e22e.js",
     "runtime-main.js.map": "/Gad/static/js/runtime-main.d395e22e.js.map",
     "static/js/2.0da129e7.chunk.js": "/Gad/static/js/2.0da129e7.chunk.js",
     "static/js/2.0da129e7.chunk.js.map": "/Gad/static/js/2.0da129e7.chunk.js.map",
     "index.html": "/Gad/index.html",
-    "precache-manifest.db2648ad6e3d34281786c840bf8923b3.js": "/Gad/precache-manifest.db2648ad6e3d34281786c840bf8923b3.js",
+    "precache-manifest.dce15e0225eeb94f5f9de8eb60c98cf5.js": "/Gad/precache-manifest.dce15e0225eeb94f5f9de8eb60c98cf5.js",
     "service-worker.js": "/Gad/service-worker.js",
-    "static/css/main.de4863f5.chunk.css.map": "/Gad/static/css/main.de4863f5.chunk.css.map",
+    "static/css/main.d4ffb676.chunk.css.map": "/Gad/static/css/main.d4ffb676.chunk.css.map",
     "static/js/2.0da129e7.chunk.js.LICENSE.txt": "/Gad/static/js/2.0da129e7.chunk.js.LICENSE.txt",
     "static/media/Salon.jpg": "/Gad/static/media/Salon.b50f33b3.jpg",
     "static/media/artisan-grid.png": "/Gad/static/media/artisan-grid.4fa81ae8.png",
     "static/media/bricklayer.jpg": "/Gad/static/media/bricklayer.d23a740c.jpg",
     "static/media/camera.jpg": "/Gad/static/media/camera.8ddbdab9.jpg",
-    "static/media/done.jpg": "/Gad/static/media/done.34ec991a.jpg",
+    "static/media/done.png": "/Gad/static/media/done.3c306845.png",
     "static/media/electrician.jpg": "/Gad/static/media/electrician.aa754edc.jpg",
     "static/media/event-planner.jpg": "/Gad/static/media/event-planner.e6da60cd.jpg",
     "static/media/fashiondesigner.jpg": "/Gad/static/media/fashiondesigner.0b46bf5f.jpg",
-    "static/media/get-matched.png": "/Gad/static/media/get-matched.35453661.png",
+    "static/media/get-matched.png": "/Gad/static/media/get-matched.342f2ad8.png",
     "static/media/hair-spray.jpg": "/Gad/static/media/hair-spray.4c80b40b.jpg",
     "static/media/home-decor.jpg": "/Gad/static/media/home-decor.01bb8f35.jpg",
     "static/media/homedecor.jpg": "/Gad/static/media/homedecor.9d3809a0.jpg",
@@ -29,13 +29,15 @@
     "static/media/painter.jpg": "/Gad/static/media/painter.63334fd9.jpg",
     "static/media/painterhouse.png": "/Gad/static/media/painterhouse.e9db0cdc.png",
     "static/media/plumbers.jpg": "/Gad/static/media/plumbers.8e3f5fb0.jpg",
+    "static/media/schedule.png": "/Gad/static/media/schedule.5b0795bb.png",
+    "static/media/todo.png": "/Gad/static/media/todo.533bc9ab.png",
     "static/media/welder-2.jpg": "/Gad/static/media/welder-2.aecc5686.jpg",
     "static/media/welder.png": "/Gad/static/media/welder.b6c442c3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d395e22e.js",
     "static/js/2.0da129e7.chunk.js",
-    "static/css/main.de4863f5.chunk.css",
-    "static/js/main.6090754a.chunk.js"
+    "static/css/main.d4ffb676.chunk.css",
+    "static/js/main.9cc738e4.chunk.js"
   ]
 }
