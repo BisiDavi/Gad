@@ -30,8 +30,10 @@ function App() {
             <Route path="/painter" component={Painter} />
             <Route path="/bricklayer" component={Bricklayer} />
           </Switch>
+          <Index />
           <HireArtisan />
           <Footer />
+          {    /**<BottomNav />*/}
         </div>
       </Router>
       <Ripple background="blur" time={200} color="blue" />

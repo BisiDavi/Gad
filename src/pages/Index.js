@@ -5,6 +5,8 @@ import {
   plumber, todo, schedule, getMatched, done, ImgCard, welder2, eventplanner
 } from '../partials';
 
+
+
 let currentTime = new Date();
 let currentHour = currentTime.getHours();
 const condition12 = currentHour < 12;
@@ -33,37 +35,37 @@ const Index = () => {
       </div>
 
 
-      <div className="searchArtisans">
-        <form>
-          <input name="search" placeholder="Still not found that artisan you are looking for? " />
-          <input type="submit" name="submit" />
+      <div className="searchArtisans">       
+        <form class="form-wrapper cf">
+          <input type="text" placeholder="Still not found that artisan you are looking for? " required />
+            <button type="submit">Search</button>
         </form>
       </div>
 
-      <div className="howGadWorks">
-        <h3> How It Works </h3>
-        <div className="describeTask">
-          <img src={todo} alt="select a qualified artisan" />
-          <h4>DESCRIBE THE TASK</h4>
-          <p>There are varieties of home services just for you, choose a qalified Artisan.</p>
-        </div>
-        <div className="getMatched">
-          <img src={getMatched} alt="get matched to a qualified artisan" />
-          <h4>GET MATCHED IMMEDIATELY</h4>
-          <p>Select from a list of fully vetted and certified Artisans required for your service of choice.</p>
-        </div>
-        <div className="makeSchedule">
-          <img src={schedule} alt="make a schedule with a qualified artisan" />
-          <h4>MAKE A SCHEDULE</h4>
-          <p>Choose a day and time you’d like your preferred qualified Artisan to show up </p>
-        </div>
-        <div className="taskDone">
-          <img src={done} alt="select a qualified artisan" />
-          <h4>GET THE TASK DONE </h4>
-          <p>Without further a do , your service agent arrives and gets the job done.  Payments are seamless.</p>
+        <div className="howGadWorks">
+          <h3> How It Works </h3>
+          <div className="describeTask">
+            <img src={todo} alt="select a qualified artisan" />
+            <h4>DESCRIBE THE TASK</h4>
+            <p>There are varieties of home services just for you, choose a qalified Artisan.</p>
+          </div>
+          <div className="getMatched">
+            <img src={getMatched} alt="get matched to a qualified artisan" />
+            <h4>GET MATCHED IMMEDIATELY</h4>
+            <p>Select from a list of fully vetted and certified Artisans required for your service of choice.</p>
+          </div>
+          <div className="makeSchedule">
+            <img src={schedule} alt="make a schedule with a qualified artisan" />
+            <h4>MAKE A SCHEDULE</h4>
+            <p>Choose a day and time you’d like your preferred qualified Artisan to show up </p>
+          </div>
+          <div className="taskDone">
+            <img src={done} alt="select a qualified artisan" />
+            <h4>GET THE TASK DONE </h4>
+            <p>Without further a do , your service agent arrives and gets the job done.  Payments are seamless.</p>
+          </div>
         </div>
       </div>
-    </div>
   );
 };
 

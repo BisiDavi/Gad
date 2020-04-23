@@ -35,6 +35,7 @@ export { default as TypingEffect } from './TypingEffect';
 export { default as HeaderOverlay } from './Header-overlay';
 export { default as HireArtisan } from './HireArtisan';
 
+
 /** components */
 export { default as Button } from '../components/Button';
 export { default as ImgCard } from '../components/ImgCard';
