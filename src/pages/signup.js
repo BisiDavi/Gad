@@ -43,35 +43,30 @@ const Signup = () => {
           confirmPassword: '',
           acceptedTerms: false,
         }}
-        validateSchema={
-          Yup.object({
+        validationSchema={
+          Yup.object().shape({
             fullname: Yup.string()
-              .required('Required'),
+              .required('Fullname is required'),
             phonenumber: Yup.number()
-              .required('Required'),
+              .required('Phone number is required'),
             email: Yup.string()
-              .email('Invalid password')
-              .required('Required'),
-            createPassword: Yup.number()
+              .email('Invalid email')
+              .required('Email is required'),
+            createPassword: Yup.string()
               .min(5, 'Must be at least 3 characters')
               .max(10, 'Must be 10 characters or less')
-              .required('Required'),
-            confirmPassword: Yup.number()
-              .min(5, 'Must be at least 3 characters')
-              .max(10, 'Must be 10 characters or less')
-              .required('Required'),
-            acceptedTerms: Yup.boolean()
-              .required('Required')
+              .required('Password is required'),
+            confirmPassword: Yup.string()
+              .oneOf([Yup.ref('createPassword'), null], 'Passwords must match')
+              .required('Password must match'),
+            acceptedTerms: Yup.bool()
               .oneOf([true], 'You must accept the terms and condition')
           })}
-        onSubmit={(values, { setSubmitting, resetForm }) => {
+        onSubmit={fields => {
           setTimeout(() => {
-            alert(JSON.stringify(values, null, 2));
-            resetForm();
-            setSubmitting(false);
+            alert('SUCCESS!! :-)\n\n' + JSON.stringify(fields, null, 4));
           }, 3000)
-        }
-        }
+        }}
       >
         {props => (
           <div className="signup-wrapper">
