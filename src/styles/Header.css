@@ -20,7 +20,7 @@
   margin: 0px;
   padding-left: 10px;
   padding-top: 6px;
-  color: black !important;
+  color: white !important;
 }
 
 .login-signup {
@@ -37,7 +37,7 @@
   align-items: center;
   justify-items: center;
   justify-content: center;
-  color: black;
+  color: white;
 }
 
 .button .btn {

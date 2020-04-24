@@ -1,5 +1,7 @@
-.gridoverlay {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #10495f, #1e2020);
+.gridoverlay,
+.header {
+  background: linear-gradient(-45deg, #dca510, #e73c7e, #605b61, #1e2020);
+  /* linear-gradient(-45deg, #ee7752, #e73c7e, #10495f, #1e2020); */
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }

@@ -39,5 +39,9 @@ export const LoginStyles = styled.div`
     }
   }
 
+  input.text-input[placeholder] {
+    padding: 0px 20px;
+  }
+
 
 `

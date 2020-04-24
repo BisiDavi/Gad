@@ -27,11 +27,17 @@ export const SignupStyle = styled.div`
   .signup h1 {
       text-align: center;
   }
-
+  .error{
+    color:red
+  }
   .signup-wrapper{
     padding:10px;
     background:rgba(0,0,0,0.8);
   }
+
+  input.text-input[placeholder] {
+    padding: 0px 20px;
+}
 
   @media (max-width: 768px){
     form.signup {
