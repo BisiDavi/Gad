@@ -2,7 +2,8 @@
   display: grid;
   grid-template-rows: 200px 35px;
   grid-gap: 10px;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
   padding: 20px;
   padding-bottom: 0px;
 }
@@ -29,12 +30,14 @@
 }
 
 .section-1 h4 {
-  color: black;
+  color: white;
+  font-size: 32px;
 }
 
 .section-1 a {
   font-size: 18px;
   transition: all 0.5s;
+  color: white;
 }
 
 .section-1 a:hover {

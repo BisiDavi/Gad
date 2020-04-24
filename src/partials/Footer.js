@@ -9,7 +9,7 @@ let Footer = () => {
       <div className="footer-main">
         <div className="section-1">
           <Link to="/">
-            <h4>G<span className="make_red">A</span>D</h4>
+            <h4>G <span className="make_red"> A </span>D</h4>
           </Link>
           <Link to="/about">About us</Link>
           <li><a href="#service">Terms of Services</a></li>
