@@ -5,37 +5,40 @@ import { artisanGrid, Artisanlink } from '.';
 const HireArtisan = () => {
   return (
     <div className="hirenow">
-      <img src={artisanGrid} alt="hire an artisan" />
+      <div className="gad-payment">
 
+      </div>
       <div className="available-artisans">
-
         <h1>Hire A Certified Artisan today</h1>
+        <Artisanlink linkaddress="/ac" linkName="AC Installation" />
+        <Artisanlink linkaddress="/carpenter" linkName="Carpenter" />
+        <Artisanlink linkaddress="/bricklayer" linkName="Bricklayer" />
+        <Artisanlink linkaddress="/electrician" linkName="Electrician" />
+        <Artisanlink linkaddress="/eventplanner" linkName="Event Planner" />
+        <Artisanlink linkaddress="/hairstylist" linkName="Hair Stylist" />
+        <Artisanlink linkaddress="/homedecor" linkName="Home Decor" />
+        <Artisanlink linkaddress="/makeup" linkName="Make-up Artist" />
+        <Artisanlink linkaddress="/Mechanic" linkName="Mechanic" />
+        <Artisanlink linkaddress="/plumber" linkName="Plumber" />
+        <Artisanlink linkaddress="/photographer" linkName="Photographer" />
+        <Artisanlink linkaddress="/painter" linkName="Wall Painting" />
+        <Artisanlink linkaddress="/welder" linkName="Welder" />
+        <Artisanlink linkName="Bathroom Fitting" linkaddress="/bathroom-fitting" />
+        <Artisanlink linkName="Blinds Installation" linkaddress="/blind-fitting" />
+        <Artisanlink linkName="Computer Repair" linkaddress="/computer-repair" />
+        <Artisanlink linkaddress="/cook-bake" linkName="Cooking & Baking" />
+        <Artisanlink linkaddress="/generator-repair" linkName="Generator Repairs" />
+        <Artisanlink linkaddress="/home-cleaning" linkName="Home Cleaning" />
+        <Artisanlink linkaddress="/office-cleaning" linkName="Office Cleaning" />
+        <Artisanlink linkaddress="/pop" linkName="POP" />
+        <Artisanlink linkaddress="/phoneEngineer" linkName="Phone Engineer" />
+        <Artisanlink linkaddress="/site-cleaning" linkName="Site Cleaning" />
+        <Artisanlink linkaddress="/signage" linkName="Signage" />
+        <Artisanlink linkaddress="/tilling" linkName="Tilling" />
 
-        <Artisanlink linkaddress="/artisans/ac" linkName="AC Installation" />
-        <Artisanlink linkaddress="/artisans/bricklayer" linkName="BrickLayer" />
-        <Artisanlink linkaddress="/artisans/electrician" linkName="Electrician" />
-        <Artisanlink linkaddress="/artisans/eventplanner" linkName="Event Planner" />
-        <Artisanlink linkaddress="/artisans/hairstylist" linkName="Hair Stylist" />
-        <Artisanlink linkaddress="/artisans/homedecor" linkName="Home Decor" />
-        <Artisanlink linkaddress="/artisans/makeup" linkName="Make-up Artist" />
-        <Artisanlink linkaddress="/artisans/plumber" linkName="Plumber" />
-        <Artisanlink linkaddress="/artisans/photographer" linkName="Photographer" />
-        <Artisanlink linkaddress="/artisans/painter" linkName="Wall Painting" />
-        <Artisanlink linkaddress="/artisans/welder" linkName="Welder" />
-        <Artisanlink linkName="Aluminium Repair" linkaddress="/artisans/aluminium-repair" />
-        <Artisanlink linkName="Bathroom Fitting" linkaddress="/artisans/bathroom-fitting" />
-        <Artisanlink linkName="Blinds Installation" linkaddress="/artisans/blind-fitting" />
-        <Artisanlink linkName="Computer Repair" linkaddress="/artisans/computer-repair" />
-        <Artisanlink linkaddress="/artisans/cook-bake" linkName="Cooking & Baking" />
-        <Artisanlink linkaddress="/artisans/generator-repair" linkName="Generator Repairs" />
-        <Artisanlink linkaddress="/artisans/home-cleaning" linkName="Home Cleaning" />
-        <Artisanlink linkaddress="/artisans/office-cleaning" linkName="Office Cleaning" />
-        <Artisanlink linkaddress="/artisans/pop" linkName="POP" />
-        <Artisanlink linkaddress="/artisans/phoneEngineer" linkName="Phone Engineer" />
-        <Artisanlink linkaddress="/artisans/site-cleaning" linkName="Site Cleaning" />
-        <Artisanlink linkaddress="/artisans/signage" linkName="Signage" />
-        <Artisanlink linkaddress="/artisans/tilling" linkName="Tilling" />
-
+      </div>
+      <div className="artisangrid">
+        <img src={artisanGrid} alt="hire an artisan" />
       </div>
     </div>
   )

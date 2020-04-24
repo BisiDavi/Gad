@@ -43,11 +43,13 @@ export { default as Grid } from '../components/grid';
 export { default as gridImage } from '../components/gridImage';
 export { default as Artisanlink } from '../components/artisanlink';
 
-/** */
+/**  pages*/
 export { default as About } from '../pages/About';
 export { default as Contact } from '../pages/Contact';
 export { default as Services } from '../pages/Services';
 export { default as Index } from '../pages/index';
+export { default as Login } from '../pages/login';
+export { default as Signup } from '../pages/signup';
 
 /** from artisan */
 export { default as Bricklayer } from '../artisans/Bricklayer';

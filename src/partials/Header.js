@@ -18,8 +18,8 @@ const Header = () => {
           <p>0810 347 2314</p>        
       </div>
       <div className="login-signup">
-        <Button name="Login" />
-        <Button name="Sign up" />
+        <Button name="Login" linkto="/login" />
+        <Button name="Sign up" linkto="/signup" />
       </div>
     </div>
   )

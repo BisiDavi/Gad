@@ -1,6 +1,6 @@
 import React from 'react'
 
-const login = () => {
+const Login = () => {
   return (
     <div className="login">
       <form action="#" method="POST">
@@ -15,4 +15,4 @@ const login = () => {
   )
 }
 
-export default login;
+export default Login;

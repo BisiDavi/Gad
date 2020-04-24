@@ -11,6 +11,7 @@
     "bcryptjs": "^2.4.3",
     "connect-flash": "^0.1.1",
     "express-session": "^1.17.0",
+    "formik": "^2.1.4",
     "gh-pages": "^2.2.0",
     "mongoose": "^5.9.9",
     "passport": "^0.4.1",
@@ -22,7 +23,9 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "react-typing-effect": "^2.0.3",
-    "redux": "^4.0.5"
+    "redux": "^4.0.5",
+    "styled-components": "^5.1.0",
+    "yup": "^0.28.4"
   },
   "scripts": {
     "start": "react-scripts start",
