@@ -1,6 +1,5 @@
 .card {
   float: left;
-  /* padding: 0 1.7rem; */
   width: 100%;
 }
 
@@ -65,6 +64,7 @@
 }
 .card .author {
   font-size: 12px;
+  display:none;
 }
 .card .title {
   margin-top: 10px;
@@ -93,6 +93,7 @@
   top: 16px;
   right: 16px;
   width: 25px;
+  display:none;
   text-align: center;
   cursor: pointer;
 }

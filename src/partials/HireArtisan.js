@@ -10,8 +10,7 @@ const HireArtisan = () => {
       </div>
       <div className="available-artisans">
         <h1>Hire A Certified Artisan today</h1>
-        <Artisanlink linkaddress="/ac" linkName="AC Installation" />
-        <Artisanlink linkaddress="/carpenter" linkName="Carpenter" />
+        <Artisanlink linkaddress="/ac" linkName="AC Installation" />        
         <Artisanlink linkaddress="/bricklayer" linkName="Bricklayer" />
         <Artisanlink linkaddress="/electrician" linkName="Electrician" />
         <Artisanlink linkaddress="/eventplanner" linkName="Event Planner" />

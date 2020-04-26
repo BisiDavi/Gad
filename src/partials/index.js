@@ -24,6 +24,18 @@ export { default as camera } from '../img/camera.jpg';
 export { default as welder2 } from '../img/welder-2.jpg';
 export { default as makeup } from '../img/makeup.jpg';
 export { default as acrepair } from '../img/acrepair.jpg';
+export { default as avatar1 } from '../img/avatars/avatar1.jpg';
+export { default as avatar2 } from '../img/avatars/avatar2.jpg';
+export { default as avatar3 } from '../img/avatars/avatar3.jpg';
+export { default as avatar4 } from '../img/avatars/avatar4.jpg';
+export { default as avatar5 } from '../img/avatars/avatar5.jpg';
+export { default as avatar6 } from '../img/avatars/avatar6.jpg';
+export { default as avatar7 } from '../img/avatars/avatar7.jpg';
+export { default as avatar8 } from '../img/avatars/avatar8.jpg';
+export { default as avatar9 } from '../img/avatars/avatar9.jpg';
+export { default as avatar10 } from '../img/avatars/avatar10.jpg';
+
+
 
 
 /** partials */
@@ -42,6 +54,10 @@ export { default as ImgCard } from '../components/ImgCard';
 export { default as Grid } from '../components/grid';
 export { default as gridImage } from '../components/gridImage';
 export { default as Artisanlink } from '../components/artisanlink';
+export { default as Card } from '../components/layout/card'
+export { default as Layout } from '../components/layout/Artisanlayout';
+
+
 
 /**  pages*/
 export { default as About } from '../pages/About';

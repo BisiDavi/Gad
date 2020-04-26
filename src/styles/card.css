@@ -1,0 +1,99 @@
+.card-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 50px 50px;
+  grid-gap: 20px;
+}
+
+.artisancard {
+  display: grid;
+  border: 1px solid gray;
+  grid-template-rows: 200px 100px 50px;
+  margin: 0px;
+  padding: 0px;
+  box-shadow: inset 0 0 16px black;
+  -moz-box-shadow: inset 0 0 16px black;
+  -webkit-box-shadow: inset 0 0 16px black;
+}
+
+.artisancard .text {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.imgbanner {
+  display: grid;
+  margin: auto;
+}
+
+.imgbanner img {
+  height: 200px;
+  max-width: 100%;
+}
+
+.username {
+  margin: 20px 0px;
+}
+
+.username p {
+  text-align: center;
+}
+
+.username h3 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.text .profile {
+  grid-template-columns: 1fr 2fr 1fr;
+  display: grid;
+  grid-gap: 20px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background: whitesmoke;
+}
+
+.imgprofile img {
+  border: 1px solid gray;
+  margin: 5px 10px;
+  width: 80%;
+  border-radius: 50%;
+  height: 70px;
+  background: whitesmoke;
+}
+.user-description p {
+  text-align: center;
+  margin: 10px 0px;
+  width: 80%;
+  padding: 10px 0px;
+  margin: auto auto;
+}
+
+.hireme {
+  margin: auto;
+}
+
+.hireme button {
+  color: white;
+  background: blue;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid blue;
+}
+
+.hireme button:hover {
+  background: red;
+  color: black;
+}
+
+.user-description .status {
+  border-top-right-radius: 10px;
+  border: 1px solid gray;
+  padding: 2px;
+  box-shadow: 5px 5px 10px 2px gray;
+  border-top-left-radius: 10px;
+  margin-top: 1px;
+  background: blue;
+  color: white;
+  width: 50%;
+}
