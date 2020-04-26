@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { zip } from 'lodash';
 
 const artisans = ["Ac Repair", "Brick layer", "Bathroom Fitting", "Blinds Installation",
   "Chef", "Computer Repair", "Electrician", "Event planner", "Generator Repair", "Home Decor",
@@ -13,7 +14,7 @@ const artisanlink = ["/ac", "/bricklayer", "//bathroom-fitting", "/blind-fitting
 
 const MovingNav = () => {
 
-  const showArtisans = _.zip(artisans, artisanlink).map((value) => {
+  const showArtisans = zip(artisans, artisanlink).map((value) => {
     return (
       <div className="MovingNav">
         <ul>
