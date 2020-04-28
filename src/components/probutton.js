@@ -1,14 +1,15 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import { BlinkText } from '../partials';
 import '../styles/probutton.css';
 
 const Probutton = () => {
   return (
-    <div className="probutton">
-      <Link to="/gadpro">
-        <button>Become a Gad Pro</button>
-      </Link>
-    </div>
+    <Link className="togadpro" to="/gadpro">
+      <div className="probutton">
+        <BlinkText content="Become a Gad Pro" />
+      </div>
+    </Link>
   )
 }
 

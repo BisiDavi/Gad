@@ -58,6 +58,7 @@ export { default as Card } from '../components/layout/card'
 export { default as Layout } from '../components/layout/Artisanlayout';
 export { default as MovingNav } from '../components/layout/movingnav';
 export { default as Probutton } from '../components/probutton';
+export { default as BlinkText } from '../components/BlinkText';
 
 
 /**  pages*/
@@ -83,7 +84,7 @@ export { default as Acrepair } from '../artisans/ac';
 export { default as Makeup } from '../artisans/makeup';
 
 
-/** from registration */ 
+/** from registration */
 export { default as Artisanpro } from '../registration/artisanpro';
-export { default as Login } from  '../registration/login';
-export { default as Signup } from  '../registration/signup';
+export { default as Login } from '../registration/login';
+export { default as Signup } from '../registration/signup';
