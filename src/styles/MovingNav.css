@@ -1,0 +1,28 @@
+.MovingNav {
+  margin: 0px 120px;
+  background: black;
+  width: 83%;
+  opacity: 0.6;
+}
+
+.MovingNav ul li a {
+  color: white;
+}
+
+.MovingNav ul li {
+  display: inline-grid;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.MovingNav ul li a:hover {
+  color: yellow;
+  transition: all 0.5s;
+  font-size: 15px;
+}
+
+@media (max-width:768px){
+  .MovingNav{
+    display:none;
+  }
+}

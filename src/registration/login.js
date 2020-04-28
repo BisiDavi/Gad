@@ -42,9 +42,7 @@ const Login = () => {
         }}
         validateSchema={
           Yup.object({
-            phonenumber: Yup.number()
-              .min(5, 'Must be at least 3 characters')
-              .max(10, 'Must be 10 characters or less')
+            phonenumber: Yup.number()              
               .required('Required'),
             password: Yup.string()
               .email('Invalid password')

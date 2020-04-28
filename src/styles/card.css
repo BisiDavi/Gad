@@ -32,7 +32,7 @@
 }
 
 .username {
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 
 .username p {
@@ -47,7 +47,7 @@
 .text .profile {
   grid-template-columns: 1fr 2fr 1fr;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 0px;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
   background: whitesmoke;
@@ -96,4 +96,15 @@
   background: blue;
   color: white;
   width: 50%;
+}
+
+@media (max-width: 500px) {
+  .card-group {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    margin: 40px 10px;
+  }
+
+  .artisancard {
+    grid-template-rows: 100px 50px 25px;
+  }
 }

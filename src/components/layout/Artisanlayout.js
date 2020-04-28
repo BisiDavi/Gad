@@ -1,9 +1,12 @@
 import React from 'react'
-import { Card } from '../../partials';
+import { Card, MovingNav } from '../../partials';
+
 
 const Layout = (props) => {
   return (
     <div className="layout">
+      <MovingNav />
+      
       <div className="card-group">
         <Card
           imgsrc={props.src1}

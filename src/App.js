@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import {
-  About, Services, Contact, Index, Bricklayer, Electrician, Mechanic, Login, Makeup, Welder, Acrepair,
-  Fashiondesigner, Painter, Plumber, Homedecor, Photographer, Eventplanner, Header, Footer, Stylist, Signup
+  About, Services, Contact, Index, Bricklayer, Electrician, Mechanic, Login, Makeup, Welder, Acrepair, Artisanpro,
+  Fashiondesigner, Painter, Plumber, Homedecor, Photographer, Eventplanner, Header, Footer, Stylist, Signup, Probutton
 } from './partials';
 import { Ripple } from 'react-preloaders';
 import './App.css';
@@ -13,7 +13,8 @@ function App() {
     <React.Fragment>
       <Router>
         <div className="App">
-          <Header />          
+          <Header />
+          <Probutton />
           <Switch>
             <Route path="/" exact component={Index} />
             <Route path="/about" component={About} />
@@ -41,8 +42,10 @@ function App() {
             <Route path="/welder" component={Welder} />
             <Route path="/home-decor" component={Homedecor} />
             <Route path="/painter" component={Painter} />
+            <Route path="/gadpro" component={Artisanpro} />
             <Index />
           </Switch>
+
           <Footer />
           {    /**<BottomNav />*/}
         </div>

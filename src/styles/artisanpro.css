@@ -1,0 +1,70 @@
+.bepro {
+  margin: 15px 0px 50px 0px;
+}
+
+.gadpro {
+  display: grid;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+.pro-header {
+  margin: auto;
+}
+
+.gadpro-body h3 {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.customTextInput label {
+  font-weight: bolder;
+}
+
+.customTextInput {
+  grid-template-rows: 1fr 2fr;
+  display: grid;
+  padding: 10px;
+}
+
+.customTextInput input {
+  margin-top: 5px;
+}
+
+.text-input[placeholder] {
+  padding: 0px 10px;
+  font-style: italic;
+}
+
+.bepro .double {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+}
+
+.bepro .triple {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.about .text-input {
+  height: 100px;
+  margin: -14px 0px;
+}
+
+.bepro button {
+  display: grid;
+  margin: auto;
+  padding: 7px 50px;
+  background: blue;
+  color: white;
+  border-radius: 30px;
+}
+
+.bepro button:hover {
+  background: red;
+}
+
+.error{
+  color:red;
+}

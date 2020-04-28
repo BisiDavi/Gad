@@ -56,7 +56,8 @@ export { default as gridImage } from '../components/gridImage';
 export { default as Artisanlink } from '../components/artisanlink';
 export { default as Card } from '../components/layout/card'
 export { default as Layout } from '../components/layout/Artisanlayout';
-
+export { default as MovingNav } from '../components/layout/movingnav';
+export { default as Probutton } from '../components/probutton';
 
 
 /**  pages*/
@@ -64,8 +65,7 @@ export { default as About } from '../pages/About';
 export { default as Contact } from '../pages/Contact';
 export { default as Services } from '../pages/Services';
 export { default as Index } from '../pages/index';
-export { default as Login } from '../pages/login';
-export { default as Signup } from '../pages/signup';
+
 
 /** from artisan */
 export { default as Bricklayer } from '../artisans/Bricklayer';
@@ -81,3 +81,9 @@ export { default as Homedecor } from '../artisans/homedecor';
 export { default as Stylist } from '../artisans/stylist';
 export { default as Acrepair } from '../artisans/ac';
 export { default as Makeup } from '../artisans/makeup';
+
+
+/** from registration */ 
+export { default as Artisanpro } from '../registration/artisanpro';
+export { default as Login } from  '../registration/login';
+export { default as Signup } from  '../registration/signup';
