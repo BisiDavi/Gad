@@ -106,5 +106,36 @@
 
   .artisancard {
     grid-template-rows: 100px 50px 25px;
+    padding-bottom: 80px;
+    margin-bottom: 25px;
+  }
+
+  .layout {
+    margin-bottom: 100px;
+  }
+
+  .imgbanner img {
+    height: 100px;
+    max-width: 150px;
+  }
+
+  .text .profile {
+    grid-template-columns: 60px 1fr;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 450px) {
+  .hireme button {
+    position: absolute;
+    margin-top: -200px;
+    border-right: 0px;
+    margin-left: 20px;
+  }
+}
+
+@media (width: 411px) {
+  .hireme button {
+    margin-left: 38px;
+    border-radius: 0px;
   }
 }

@@ -30,6 +30,7 @@ export const LoginStyles = styled.div`
 
   .login-wrapper{
     padding:10px;
+    height:400px;
     background:rgba(0,0,0,0.8);
   }
 
