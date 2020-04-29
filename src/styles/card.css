@@ -105,13 +105,9 @@
   }
 
   .artisancard {
-    grid-template-rows: 100px 50px 25px;
-    padding-bottom: 80px;
+    grid-template-rows: 100px 70px 70px;
+    /* padding-bottom: 80px; */
     margin-bottom: 25px;
-  }
-
-  .layout {
-    margin-bottom: 100px;
   }
 
   .imgbanner img {
@@ -119,17 +115,36 @@
     max-width: 150px;
   }
 
+  .username h3 {
+    font-size: 0.8rem !important;
+  }
+
   .text .profile {
     grid-template-columns: 60px 1fr;
+    height: 70px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 450px) {
   .hireme button {
     position: absolute;
-    margin-top: -200px;
+    margin-top: -190px;
     border-right: 0px;
     margin-left: 20px;
+  }
+  .username p {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  .imgprofile img {
+    width: 40px;
+    height: 60px;
+  }
+
+  .user-description .status {
+    padding: 2px;
+    margin-top: -12px;
   }
 }
 
@@ -137,5 +152,19 @@
   .hireme button {
     margin-left: 38px;
     border-radius: 0px;
+  }
+}
+
+@media (max-width: 380px) {
+  .user-description .status {
+    padding: 2px;
+    margin-top: -12px;
+  }
+}
+
+@media (min-width: 385px) and (max-width: 430px) {
+  .user-description .status {
+    padding: 2px;
+    margin-top: 1px;
   }
 }

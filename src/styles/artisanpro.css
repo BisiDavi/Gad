@@ -95,3 +95,9 @@
     margin-bottom: -20px;
   }
 }
+
+@media (width: 320px) {
+  .customTextInput .text-input[placeholder] {
+    width: 85%;
+  }
+}

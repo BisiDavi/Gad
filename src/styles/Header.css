@@ -89,6 +89,17 @@
   }
   .logo a h1 {
     font-size: 40px !important;
-    margin-top: 0px;
+    margin-top: -8px;
+  }
+  .username h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .user-description p {
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 0.9rem;
+    margin: auto auto;
   }
 }
