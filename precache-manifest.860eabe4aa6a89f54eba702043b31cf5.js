@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b95a311011cd4687ceed6b00ac83dcc3",
+    "revision": "6e66f89cd0165c0573bb6e21798c2e85",
     "url": "/Gad/index.html"
   },
   {
-    "revision": "3be45112742d450ba56a",
-    "url": "/Gad/static/css/main.20513901.chunk.css"
+    "revision": "5a28eb54cca8f88cbd2a",
+    "url": "/Gad/static/css/main.39300b3f.chunk.css"
   },
   {
     "revision": "68a851d58308757d00e4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Gad/static/js/2.aa15b949.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3be45112742d450ba56a",
-    "url": "/Gad/static/js/main.89bf7e31.chunk.js"
+    "revision": "5a28eb54cca8f88cbd2a",
+    "url": "/Gad/static/js/main.4b76609f.chunk.js"
   },
   {
     "revision": "19b9db6a517e21626914",
@@ -70,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9d3809a0f1dd87cb77334d02270566cf",
     "url": "/Gad/static/media/homedecor.9d3809a0.jpg"
-  },
-  {
-    "revision": "e8370a463fcb1dc6fbdb9b26f73d28bc",
-    "url": "/Gad/static/media/main-background.e8370a46.jpg"
   },
   {
     "revision": "c255c553d066706e3ee367503a92ab96",

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Gad/static/css/main.20513901.chunk.css",
-    "main.js": "/Gad/static/js/main.89bf7e31.chunk.js",
-    "main.js.map": "/Gad/static/js/main.89bf7e31.chunk.js.map",
+    "main.css": "/Gad/static/css/main.39300b3f.chunk.css",
+    "main.js": "/Gad/static/js/main.4b76609f.chunk.js",
+    "main.js.map": "/Gad/static/js/main.4b76609f.chunk.js.map",
     "runtime-main.js": "/Gad/static/js/runtime-main.d395e22e.js",
     "runtime-main.js.map": "/Gad/static/js/runtime-main.d395e22e.js.map",
     "static/js/2.aa15b949.chunk.js": "/Gad/static/js/2.aa15b949.chunk.js",
     "static/js/2.aa15b949.chunk.js.map": "/Gad/static/js/2.aa15b949.chunk.js.map",
     "index.html": "/Gad/index.html",
-    "precache-manifest.79bf9dde1dee35a3e48484f99dbfab16.js": "/Gad/precache-manifest.79bf9dde1dee35a3e48484f99dbfab16.js",
+    "precache-manifest.860eabe4aa6a89f54eba702043b31cf5.js": "/Gad/precache-manifest.860eabe4aa6a89f54eba702043b31cf5.js",
     "service-worker.js": "/Gad/service-worker.js",
-    "static/css/main.20513901.chunk.css.map": "/Gad/static/css/main.20513901.chunk.css.map",
+    "static/css/main.39300b3f.chunk.css.map": "/Gad/static/css/main.39300b3f.chunk.css.map",
     "static/js/2.aa15b949.chunk.js.LICENSE.txt": "/Gad/static/js/2.aa15b949.chunk.js.LICENSE.txt",
     "static/media/Salon.jpg": "/Gad/static/media/Salon.b50f33b3.jpg",
     "static/media/artisan-grid.png": "/Gad/static/media/artisan-grid.4fa81ae8.png",
@@ -24,7 +24,6 @@
     "static/media/hair-spray.jpg": "/Gad/static/media/hair-spray.4c80b40b.jpg",
     "static/media/home-decor.jpg": "/Gad/static/media/home-decor.01bb8f35.jpg",
     "static/media/homedecor.jpg": "/Gad/static/media/homedecor.9d3809a0.jpg",
-    "static/media/main-background.jpg": "/Gad/static/media/main-background.e8370a46.jpg",
     "static/media/mechanic.jpg": "/Gad/static/media/mechanic.c255c553.jpg",
     "static/media/painter.jpg": "/Gad/static/media/painter.63334fd9.jpg",
     "static/media/painterhouse.png": "/Gad/static/media/painterhouse.e9db0cdc.png",
@@ -37,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.d395e22e.js",
     "static/js/2.aa15b949.chunk.js",
-    "static/css/main.20513901.chunk.css",
-    "static/js/main.89bf7e31.chunk.js"
+    "static/css/main.39300b3f.chunk.css",
+    "static/js/main.4b76609f.chunk.js"
   ]
 }
