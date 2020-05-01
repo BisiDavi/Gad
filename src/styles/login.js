@@ -38,6 +38,16 @@ export const LoginStyles = styled.div`
     form.login {
     margin: 40px !important;    
     }
+    .login h1 {
+      font-size: 1.8rem;
+    }
+    input.text-input[placeholder] {
+    padding:0px !important;
+    }
+    .login label.checkbox {
+    font-size: 1rem;    
+    text-align: center;
+    }
   }
 
   input.text-input[placeholder] {

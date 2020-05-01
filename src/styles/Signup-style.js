@@ -6,8 +6,7 @@ export const SignupStyle = styled.div`
     justify-content: center;
     margin:10px 500px 200px 500px;
     color:white;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 20px;    
     background: hsla(182, 68%, 75%, 0.6);
     grid-gap: 10px;    
     grid-template-rows: 30px 10px 30px 10px 30px 10px 30px 10px 30px 10px 30px;
@@ -35,13 +34,22 @@ export const SignupStyle = styled.div`
     background:rgba(0,0,0,0.8);    
   }
 
-  input.text-input[placeholder] {
-    padding: 0px 20px;
-}
 
   @media (max-width: 768px){
     form.signup {
     margin: 40px !important;    
+    }
+    input.text-input {
+    margin: 4px !important;
+    }
+    .signup h1 {
+    font-size: 2rem;
+    padding: 5px;
+    }
+    .signup label.checkbox {    
+    line-height: 2rem;
+    font-size: .8rem;
+    text-align: center;    
     }
   }
 

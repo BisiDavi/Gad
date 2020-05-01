@@ -75,6 +75,10 @@
 }
 
 @media (max-width: 768px) {
+  .pro-header h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
   .gadpro {
     margin: 10px 0px;
   }
@@ -88,16 +92,10 @@
     grid-template-columns: auto;
   }
   .customTextInput .text-input[placeholder] {
-    width: 90%;
+    width: 100%;
   }
   .artisanpro-wrapper {
     margin-bottom: -20px;
-  }
-}
-
-@media (width: 320px) {
-  .customTextInput .text-input[placeholder] {
-    width: 85%;
   }
 }
 
@@ -105,6 +103,6 @@
   padding-bottom: 20px;
 }
 
-label{
+label {
   margin-bottom: 0px !important;
 }
