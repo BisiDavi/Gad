@@ -17,3 +17,9 @@
     background-position: 0% 50%;
   }
 }
+
+@media (max-width:500px) {
+  .gridoverlay {
+    margin-top: -56px;
+  }
+}

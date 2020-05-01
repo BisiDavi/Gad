@@ -19,6 +19,7 @@ class Nav extends React.Component {
     const collapsed = this.state.collapsed;
     const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
     const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
+    
     return (
       <header>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark transparent-nav">
@@ -44,13 +45,13 @@ class Nav extends React.Component {
                 <li className="nav-item">
                   <Link className="nav-link" to="/Register">
                     Register  <i className="fas fa-user-plus pull-right" aria-hidden="true"></i>
-                    </Link>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/login">
                     Login <i className="fas fa-sign-in-alt pull-right" aria-hidden="true"></i>
                   </Link>
-                </li>                   
+                </li>
               </ul>
             </div>
           </div>

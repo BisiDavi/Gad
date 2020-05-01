@@ -73,6 +73,11 @@ span.greet {
 }
 
 @media only screen and (max-width: 768px) and (min-width: 300px) {
+  .howGadWorks h4 {
+    text-align: center;
+    font-size: 1rem;
+  }
+
   h1.title {
     margin: 0px !important;
   }
@@ -104,8 +109,8 @@ span.greet {
     text-align: center;
     padding: 0px;
   }
-  .index h1 {
-    font-size: 16px;
+  .greetuser h1 {
+    font-size: 1.8rem;
   }
   .howGadWorks {
     grid-template-columns: repeat(2, 1fr) !important;
@@ -159,7 +164,7 @@ span.greet {
 }
 
 .form-wrapper {
-  padding: 15px;
+  /* padding: 15px; */
   margin: 20px auto 20px auto;
   background: #444;
   background: rgba(0, 0, 0, 0.2);
@@ -176,6 +181,7 @@ span.greet {
 
 .form-wrapper input {
   width: 330px;
+  margin: 10px 0px 10px 10px;
   height: 20px;
   padding: 10px 5px;
   float: left;

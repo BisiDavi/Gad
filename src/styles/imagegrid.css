@@ -216,6 +216,7 @@
   #hexGrid {
     padding-bottom: 11.2%;
     font-size: 12px;
+    margin-top: 12px;
   }
 
   .hex {

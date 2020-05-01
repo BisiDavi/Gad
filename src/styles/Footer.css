@@ -82,6 +82,9 @@ a {
     grid-column: 1/-1;
     text-align: center;
   }
+  .section-2 h4 {
+    font-size: 1rem;
+  }
 }
 
 @media (width: 768px) {

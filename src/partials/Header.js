@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/Header.css';
-import Nav from '../components/Navbarr';
+import { Nav } from '.'
 
 
 const Header = () => {
-  return (    
+  return (
     <Nav />
   )
 }
