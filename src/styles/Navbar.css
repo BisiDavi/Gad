@@ -1,0 +1,41 @@
+.top-nav {
+  background: linear-gradient(-45deg, #dca510, #e73c7e, #605b61, #1e2020);
+  /* linear-gradient(-45deg, #ee7752, #e73c7e, #10495f, #1e2020); */
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+.top-nav .nav-link {
+  color: white !important;
+}
+.top-nav .nav-link:hover {
+  border-bottom: 4px solid white;
+}
+.top-nav .menu-list {
+  justify-content: flex-end;
+}
+.top-nav .navbar-brand {
+  float: left;
+}
+.navbar .dropdown-menu a:hover {
+  color: #616161 !important;
+}
+.darken-grey-text {
+  color: #2e2e2e;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.nav-item i {
+  display: flex;
+  float: right;
+}

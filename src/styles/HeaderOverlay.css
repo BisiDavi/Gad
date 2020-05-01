@@ -10,6 +10,10 @@
   left: 25rem;
 }
 
+.text-overlay h1 {
+  font-size: 2rem;
+}
+
 .button-overlay {
   display: grid;
   grid-template-columns: auto auto auto;

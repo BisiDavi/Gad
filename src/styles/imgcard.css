@@ -64,7 +64,7 @@
 }
 .card .author {
   font-size: 12px;
-  display:none;
+  display: none;
 }
 .card .title {
   margin-top: 10px;
@@ -93,7 +93,7 @@
   top: 16px;
   right: 16px;
   width: 25px;
-  display:none;
+  display: none;
   text-align: center;
   cursor: pointer;
 }
@@ -148,4 +148,9 @@
 }
 .example-1 .menu-content span {
   top: -10px;
+}
+
+.content h1.title {
+  font-size: 1.2rem !important;
+  color: black !important;
 }

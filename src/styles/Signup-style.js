@@ -32,7 +32,7 @@ export const SignupStyle = styled.div`
   }
   .signup-wrapper{
     padding:10px;
-    background:rgba(0,0,0,0.8);
+    background:rgba(0,0,0,0.8);    
   }
 
   input.text-input[placeholder] {

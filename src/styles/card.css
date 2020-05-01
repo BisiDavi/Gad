@@ -4,7 +4,6 @@
   margin: 50px 50px;
   grid-gap: 20px;
 }
-
 .artisancard {
   display: grid;
   border: 1px solid gray;
@@ -98,6 +97,14 @@
   width: 50%;
 }
 
+p.description {
+  margin: -15px 0px 15px 30px;
+}
+
+.user-description p.status {
+  margin-top: -22px;
+}
+
 @media (max-width: 500px) {
   .card-group {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -126,6 +133,9 @@
 }
 
 @media (min-width: 320px) and (max-width: 450px) {
+  .user-description p.description {
+    margin: -5px 10px 10px 15px;
+  }
   .hireme button {
     position: absolute;
     margin-top: -190px;
@@ -165,6 +175,12 @@
 @media (min-width: 385px) and (max-width: 430px) {
   .user-description .status {
     padding: 2px;
-    margin-top: 1px;
+    margin-top: -10px;
+  }
+}
+
+@media (width: 320px) {
+  .hireme button {
+    margin-left: 10px;
   }
 }

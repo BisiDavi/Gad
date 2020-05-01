@@ -2,6 +2,15 @@
   color: red;
 }
 
+header {
+  margin-bottom: 25px;
+}
+
+header .nav-link a {
+  color: white !important;
+}
+
+/* 
 .header {
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -14,12 +23,12 @@
 .header .logo {
   margin: 0px;
   text-align: center;
-}
+} */
 
 .logo h1 {
   margin: 0px;
-  padding-left: 10px;
-  padding-top: 6px;
+  /* padding-left: 10px;
+  padding-top: 6px; */
   color: white !important;
 }
 
@@ -82,20 +91,20 @@
   .logo h1 {
     font-size: 20px;
     margin-top: 15px;
-    margin-left: px;
+    font-size: 2rem;
   }
   .login-signup {
     grid-template-columns: auto auto;
   }
   .logo a h1 {
-    font-size: 40px !important;
-    margin-top: -8px;
+    font-size: 35px !important;
+    margin-top: -1px;
   }
   .username h3 {
     font-size: 1rem;
     text-align: center;
   }
-  
+
   .user-description p {
     text-align: center;
     margin: 10px 0px;

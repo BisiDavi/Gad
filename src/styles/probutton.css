@@ -1,9 +1,9 @@
 .probutton {
-  padding: 10px;
+  padding: 0px;
   background: rgba(30, 03, 25, 0.1);
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  width: 150px;
+  width: 160px;
   position: sticky;
   top: 200px;
   z-index: 999;

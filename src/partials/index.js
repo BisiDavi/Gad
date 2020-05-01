@@ -59,6 +59,7 @@ export { default as Layout } from '../components/layout/Artisanlayout';
 export { default as MovingNav } from '../components/layout/movingnav';
 export { default as Probutton } from '../components/probutton';
 export { default as BlinkText } from '../components/BlinkText';
+export { default as MyNavbar } from '../components/Navbar';
 
 
 /**  pages*/

@@ -19,10 +19,10 @@ const Card = (props) => {
           <div className="hireme">
             <button>Hire me</button>
           </div>
-        </div>        
-      </div>    
+        </div>
+      </div>
       <div className="user-description">
-        <p>{props.description}</p>
+        <p className="description">{props.description}</p>
         <p className="status">{props.status}</p>
       </div>
     </div>

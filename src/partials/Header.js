@@ -1,12 +1,14 @@
 import React from 'react';
 import '../styles/Header.css';
-import Button from '../components/Button';
-import { Link } from 'react-router-dom';
+// import Button from '../components/Button';
+// import { Link } from 'react-router-dom';
+import { MyNavbar } from '.';
 
 
 const Header = () => {
   return (
-    <div className="header">
+    /**
+      <div className="header">
       <div className="logo">
         <Link to='/'>
           <h1>G <span className="make_red">A</span> D</h1>
@@ -21,7 +23,9 @@ const Header = () => {
         <Button name="Login" linkto="/login" />
         <Button name="Sign up" linkto="/signup" />
       </div>
-    </div>
+  </div>
+    */
+  <MyNavbar />
   )
 }
 
