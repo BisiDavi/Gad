@@ -33,7 +33,7 @@ export { default as avatar7 } from '../img/avatars/avatar7.jpg';
 export { default as avatar8 } from '../img/avatars/avatar8.jpg';
 export { default as avatar9 } from '../img/avatars/avatar9.jpg';
 export { default as avatar10 } from '../img/avatars/avatar10.jpg';
-// export { default as payment } from '../img/payment.png';
+export { default as payment } from '../img/payment.png';
 // export { default as painter1 } from '../img/painter1.jpg';
 // export { default as plumber1 } from '../img/plumber-1.jpg';
 // export { default as welder1 } from '../img/welder1.jpg';
