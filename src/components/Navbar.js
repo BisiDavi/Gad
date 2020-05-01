@@ -5,6 +5,14 @@ import '../styles/Navbar.css';
 import { Navbar, NavDropdown, Nav, NavItem } from 'react-bootstrap';
 
 class MyNavbar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.myRef = React.createRef();
+  }
+  onFocus() {
+    document.getElementById("responsive-navbar-nav")
+    document.getElementById("collasible-nav-dropdown")
+  }
   render() {
     return (
       <header>

@@ -29,7 +29,6 @@
 }
 
 .customTextInput {
-  grid-template-rows: 1fr 2fr;
   display: grid;
   padding: 10px;
 }
@@ -100,4 +99,12 @@
   .customTextInput .text-input[placeholder] {
     width: 85%;
   }
+}
+
+.bepro .about .customTextInput label {
+  padding-bottom: 20px;
+}
+
+label{
+  margin-bottom: 0px !important;
 }

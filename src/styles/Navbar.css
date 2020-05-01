@@ -38,4 +38,5 @@
 .nav-item i {
   display: flex;
   float: right;
+  margin: 5px;
 }

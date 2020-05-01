@@ -15,6 +15,18 @@ const CustomTextInput = ({ label, ...props }) => {
     </div>
   )
 }
+const CustomTextArea = ({ label, ...props }) => {
+  const [field, meta] = useField(props);
+  return (
+    <div className="customTextInput">
+      <label htmlFor={props.id || props.name}>{label}</label>
+      <textarea className="text-input" {...field}{...props} />
+      {meta.touched && meta.error ? (
+        <div className="error">{meta.error}</div>
+      ) : null}
+    </div>
+  )
+}
 
 const Artisanpro = () => {
   return (
@@ -125,7 +137,7 @@ const Artisanpro = () => {
                     <CustomTextInput label="Guarantor's Mobile" name="guarantorNumber" type="text" placeholder="Enter your guarantor's phone number" />
                   </div>
                   <div className="about">
-                    <CustomTextInput label="About" name="guarantorAddress" type="text" placeholder="We want to know more about you?" />
+                    <CustomTextArea label="About" name="guarantorAddress" type="text" rows="8" cols="50" placeholder="We want to know more about you?" />
                   </div>
                   <CustomTextInput label="Upload Image" name="image" placeholder="Choose files to upload" />
                   <button type="submit">
