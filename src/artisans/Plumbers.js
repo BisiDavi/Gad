@@ -1,7 +1,8 @@
 import React from 'react';
 import {
   Layout, avatar1, avatar2, avatar3, avatar4, avatar5,
-  avatar6, avatar7, avatar8} from '../partials';
+  avatar6, avatar7, avatar8
+} from '../partials';
 
 
 const Plumbers = () => {
@@ -40,7 +41,7 @@ const Plumbers = () => {
         src8={avatar8} username8="Odunlade Femi"
         location8="Lagos" description8="I am a Skilled Plumber"
         status8="Available" alt8="Plumber"
-      />   
+      />
     </div>
   )
 }

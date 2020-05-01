@@ -16,7 +16,6 @@ export { default as photography } from '../img/photography.jpg';
 export { default as todo } from '../img/todo.png';
 export { default as getMatched } from '../img/get-matched.png';
 export { default as done } from '../img/done.png';
-export { default as Background } from '../img/main-background.jpg';
 export { default as homedecor } from '../img/home-decor.jpg';
 export { default as homedecor2 } from '../img/homedecor.jpg';
 export { default as eventplanner } from '../img/event-planner.jpg';
@@ -34,6 +33,20 @@ export { default as avatar7 } from '../img/avatars/avatar7.jpg';
 export { default as avatar8 } from '../img/avatars/avatar8.jpg';
 export { default as avatar9 } from '../img/avatars/avatar9.jpg';
 export { default as avatar10 } from '../img/avatars/avatar10.jpg';
+// export { default as payment } from '../img/payment.png';
+// export { default as painter1 } from '../img/painter1.jpg';
+// export { default as plumber1 } from '../img/plumber-1.jpg';
+// export { default as welder1 } from '../img/welder1.jpg';
+// export { default as homedecor1 } from '../img/homedecor1.jpg';
+// export { default as eventsplanner } from '../img/eventsplanner.png';
+// export { default as makeup1 } from '../img/makeup-1.jpg';
+// export { default as Photographer1 } from '../img/photographer.png';
+// export { default as electrician1 } from '../img/electrician1.jpg';
+// export { default as fashiondesigner1 } from '../img/fashiondesigner1.png';
+// export { default as hairstylist } from '../img/hairstylist.jpg';
+// export { default as Acrepair1 } from '../img/Ac-repair.jpg';
+// export { default as bricklayer1 } from '../img/bricklayer-1.jpg';
+
 
 
 

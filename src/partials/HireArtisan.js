@@ -1,16 +1,16 @@
 import React from 'react'
 import '../styles/HireArtisan.css';
-import { artisanGrid, Artisanlink } from '.';
+import { artisanGrid, Artisanlink, payment } from '.';
 
 const HireArtisan = () => {
   return (
     <div className="hirenow">
       <div className="gad-payment">
-
+        <img src={payment} alt="seamless payment" />
       </div>
       <div className="available-artisans">
         <h1>Hire A Certified Artisan today</h1>
-        <Artisanlink linkaddress="/ac" linkName="AC Installation" />        
+        <Artisanlink linkaddress="/ac" linkName="AC Installation" />
         <Artisanlink linkaddress="/bricklayer" linkName="Bricklayer" />
         <Artisanlink linkaddress="/electrician" linkName="Electrician" />
         <Artisanlink linkaddress="/eventplanner" linkName="Event Planner" />

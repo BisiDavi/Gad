@@ -6,7 +6,6 @@ import {
 } from '../partials';
 
 
-
 let currentTime = new Date();
 let currentHour = currentTime.getHours();
 const condition12 = currentHour < 12;

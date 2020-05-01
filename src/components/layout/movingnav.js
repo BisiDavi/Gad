@@ -16,10 +16,11 @@ const artisanlink = ["/ac", "/bricklayer", "/bathroom-fitting", "/blind-fitting"
 
 const MovingNav = () => {
   const showArtisans = zip(artisans, artisanlink).map((value) =>     
-    <li>
+    <li key={value[0]}>
       <Link to={value[1]}>{value[0]}</Link>
     </li>      
   )
+
   return (    
     <div className="MovingNav">
       <ul>
