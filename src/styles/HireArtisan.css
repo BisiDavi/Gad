@@ -77,9 +77,15 @@
   }
 }
 
-@media only screen and (max-width: 750px) and (min-width: 300px) {
+@media(max-width:350px){
+.artisans{
+ grid-template-columns: repeat(auto-fill, 300px) !important; 
+}
+}
+
+@media only screen and (max-width: 750px) and (min-width: 355px) {
   .artisans {
-    grid-template-columns: auto auto !important;
+    grid-template-columns: repeat(auto-fill, 350px) !important;
     grid-gap: 10px !important;
     margin: 0px 5px 0px 0px;
     padding: 0px 5px 0px 0px;

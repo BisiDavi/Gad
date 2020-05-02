@@ -11,22 +11,16 @@ let ImageGrid = () => {
     <div className="grid">
       <ul id="hexGrid">
         <Grid
-          linkroute="/makeup"
-          gridimg={makeup}
-          imgalt="hire a makeup artist"
-          text1="Need a Professional Makeup artist"
-        />
-        <Grid
           linkroute="/plumber"
           gridimg={plumber}
           imgalt="hire a plumber"
           text1="Need a Professional Plumber"
         />
         <Grid
-          linkroute="/photographer"
-          gridimg={camera}
-          imgalt="hire a Photographer"
-          text1="Need a Professional Photographer"
+          linkroute="/welder"
+          gridimg={welder}
+          imgalt="hire a welder"
+          text1="Need a Professional welder"
         />
         <Grid
           linkroute="/ac"
@@ -41,34 +35,10 @@ let ImageGrid = () => {
           text1="Need a Certified electrician"
         />
         <Grid
-          linkroute="/fashiondesigner"
-          gridimg={fashiondesigner}
-          imgalt="hire a fashiondesigner"
-          text1="Need a Certified Fashion designer"
-        />
-        <Grid
-          linkroute="/event-planner"
-          gridimg={eventplanner}
-          imgalt="hire a eventplanner"
-          text1="Need a Professional Eventplanner"
-        />
-        <Grid
-          linkroute="/canvas-painter"
-          gridimg={painter}
-          imgalt="hire a canvas painter"
-          text1="Need a Professional Canvas Painter"
-        />
-        <Grid
           linkroute="/mechanic"
           gridimg={mechanic}
           imgalt="hire a mechanic"
           text1="Need a Professional mechanic"
-        />
-        <Grid
-          linkroute="/hair-stylist"
-          gridimg={Salon}
-          imgalt="make your hair"
-          text1="Need a Professional Hair Stylist"
         />
         <Grid
           linkroute="/bricklayer"
@@ -89,10 +59,41 @@ let ImageGrid = () => {
           text1="Need a Professional homedecor"
         />
         <Grid
-          linkroute="/welder"
-          gridimg={welder}
-          imgalt="hire a welder"
-          text1="Need a Professional welder"
+          linkroute="/fashiondesigner"
+          gridimg={fashiondesigner}
+          imgalt="hire a fashiondesigner"
+          text1="Need a Certified Fashion designer"
+        />
+        <Grid
+          linkroute="/event-planner"
+          gridimg={eventplanner}
+          imgalt="hire a eventplanner"
+          text1="Need a Professional Eventplanner"
+        />
+        <Grid
+          linkroute="/canvas-painter"
+          gridimg={painter}
+          imgalt="hire a canvas painter"
+          text1="Need a Professional Canvas Painter"
+        />
+
+        <Grid
+          linkroute="/hair-stylist"
+          gridimg={Salon}
+          imgalt="make your hair"
+          text1="Need a Professional Hair Stylist"
+        />
+        <Grid
+          linkroute="/makeup"
+          gridimg={makeup}
+          imgalt="hire a makeup artist"
+          text1="Need a Professional Makeup artist"
+        />
+        <Grid
+          linkroute="/photographer"
+          gridimg={camera}
+          imgalt="hire a Photographer"
+          text1="Need a Professional Photographer"
         />
       </ul>
     </div>

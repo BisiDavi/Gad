@@ -1,6 +1,6 @@
 import React from 'react'
 import { Form, Formik, useField } from 'formik';
-import { SignupStyle } from '../styles/Signup-style';
+import '../styles/signup.css';
 import * as Yup from 'yup';
 
 const CustomTextInput = ({ label, ...props }) => {
@@ -32,8 +32,7 @@ const CustomCheckbox = ({ children, ...props }) => {
 
 
 const Signup = () => {
-  return (
-    <SignupStyle>
+  return (    
       <Formik
         initialValues={{
           fullname: '',
@@ -86,8 +85,7 @@ const Signup = () => {
             </Form>
           </div>
         )}
-      </Formik>
-    </SignupStyle>
+      </Formik>    
   )
 }
 

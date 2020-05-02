@@ -11,7 +11,7 @@ let currentHour = currentTime.getHours();
 const condition12 = currentHour < 12;
 const condition16 = currentHour < 16;
 const greet = ["Good Morning ,", "Good Afternoon ,", "Good Evening ,"];
-const greetings = condition12 ? <h1><span className="greet">{greet[0]}</span> Which Task Do You Want To Do ? </h1> : condition16 ? <h1><span className="greet">{greet[1]}</span> Which Task Do You Want To Do ?</h1> : <h1><span className="greet">{greet[2]}</span> Which Task Do You Want To Do ?</h1>;
+const greetings = condition12 ? <h1><span className="greet">{greet[0]}</span> Get your task done by Professionals, <span className="make_red">Hire now</span> ? </h1> : condition16 ? <h1><span className="greet">{greet[1]}</span> Get your task done by Professionals, <span className="make_red">Hire now</span></h1> : <h1><span className="greet">{greet[2]}</span> Get your task done by Professionals, <span className="make_red">Hire now</span></h1>;
 
 
 const Index = () => {
@@ -36,9 +36,8 @@ const Index = () => {
           <ImgCard name="Event Planner" linkartisan="/event-planner" imgsrc={eventplanner} imgalt="Hire an event planner" />
         </div>
 
-
         <div className="searchArtisans">
-          <form className="form-wrapper cf">
+          <form className="form-wrap cf">
             <input type="text" placeholder="Still not found that artisan you are looking for? " required />
             <button type="submit">Search</button>
           </form>

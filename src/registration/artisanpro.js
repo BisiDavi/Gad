@@ -1,5 +1,6 @@
 import React from 'react';
-import { Form, Formik, useField } from 'formik';
+import {  Formik, useField } from 'formik';
+import { Form,Datepicker, DropZone } from 'react-formik-ui';
 import * as Yup from 'yup';
 import '../styles/artisanpro.css';
 
@@ -28,6 +29,7 @@ const CustomTextArea = ({ label, ...props }) => {
   )
 }
 
+
 const Artisanpro = () => {
   return (
     <div>
@@ -40,7 +42,6 @@ const Artisanpro = () => {
           <h3>Do you know you can earn more income from doing what you love?  <span className="make_red">Become a GadPro</span></h3>
           <Formik
             initialValues={{
-              referralcode: '',
               fullname: '',
               phonenumber: '',
               service: '',
@@ -49,7 +50,7 @@ const Artisanpro = () => {
               gender: '',
               createpassword: '',
               confirmpassword: '',
-              dateofBirth: '',
+              dateExample8: '',
               stateofResidence: '',
               address: '',
               bank: '',
@@ -59,11 +60,10 @@ const Artisanpro = () => {
               guarantorAddress: '',
               guarantorNumber: '',
               about: '',
-              image: ''
+              image: []
             }}
             validationSchema={
               Yup.object().shape({
-                referralcode: Yup.number(),
                 fullname: Yup.string()
                   .required('your full name is required'),
                 phonenumber: Yup.number()
@@ -83,7 +83,8 @@ const Artisanpro = () => {
                 confirmpassword: Yup.string()
                   .oneOf([Yup.ref('createPassword'), null], 'Passwords must match')
                   .required('Password must match'),
-                dateofBirth: Yup.string()
+                dateExample8: Yup
+                  .date()
                   .required('enter your date of birth'),
                 stateofResidence: Yup.string()
                   .required('enter your state of residence'),
@@ -103,8 +104,6 @@ const Artisanpro = () => {
                   .required("enter your guarantor's phone number"),
                 about: Yup.string()
                   .required('Tell us about yourself'),
-                image: Yup.string()
-                  .required('Upload your image')
               })
             }
             onSubmit={fields => {
@@ -113,18 +112,26 @@ const Artisanpro = () => {
               }, 3000)
             }}
           >
+
+
             {props => (
               <div className="artisanpro-wrapper">
                 <Form className="bepro">
-                  <CustomTextInput label="Referral Code" name="referralcode" type="text" placeholder="optional" />
                   <CustomTextInput label="Full name" name="fullname" type="text" placeholder="Enter your Full name" />
                   <CustomTextInput label="Select Service Offered" name="service" type="text" placeholder="Select a service you render" />
                   <div className="double">
                     <CustomTextInput label="Email" name="email" type="email" placeholder="Enter your email" />
-                    <CustomTextInput label="Mobile Number" name="phonenumber" type="text" placeholder="What's your marital status" />
+                    <CustomTextInput label="Mobile Number" name="phonenumber" type="text" placeholder="Enter your phone number" />
                     <CustomTextInput label="Create Password" name="createpassword" type="password" placeholder="Create a password" />
                     <CustomTextInput label="Confirm Password" name="confirmpassword" type="password" placeholder="Confirm your password" />
-                    <CustomTextInput label="Date of Birth" name="dateofBirth" type="text" placeholder="What's your date of birth" />
+                    <Datepicker
+                      name="dateExample8"
+                      label="Enter your date of birth"
+                      dateFormat="dd.MM.yyyy"
+                      placeholder="dd.mm.yyyy"
+                      disabledKeyboardNavigation={false}
+                      required
+                    />
                     <CustomTextInput label="State of Residence" name="stateofResidence" type="text" placeholder="Select an option" />
                     <CustomTextInput label="Address" name="address" type="text" placeholder="Where do you live ?" />
                     <CustomTextInput label="Bank" name="bank" type="text" placeholder="Select a bank" />
@@ -139,8 +146,13 @@ const Artisanpro = () => {
                   <div className="about">
                     <CustomTextArea label="About" name="guarantorAddress" type="text" rows="8" cols="50" placeholder="We want to know more about you?" />
                   </div>
-                  <CustomTextInput label="Upload Image" name="image" placeholder="Choose files to upload" />
-                  <button type="submit">
+                  <DropZone
+                    name='image'
+                    label='Upload your image'
+                    placeholer="Upload your profile image"
+                    multiple={false}
+                  />
+                  <button className="submitForm" type="submit">
                     {props.isSubmitting ? 'Loading ...' : 'Submit'}
                   </button>
                 </Form>

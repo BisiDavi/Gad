@@ -38,7 +38,6 @@ span.greet {
   grid-template-columns: repeat(auto-fill, 300px);
   justify-content: center;
   grid-gap: 20px;
-  margin-top: 20px;
 }
 
 .howGadWorks {
@@ -111,7 +110,7 @@ span.greet {
     padding: 0px;
   }
   .greetuser h1 {
-    font-size: 1.8rem;
+    font-size: 20px;
   }
   .howGadWorks {
     grid-template-columns: repeat(2, 1fr) !important;
@@ -143,7 +142,7 @@ span.greet {
 
 /*-------------------------------------*/
 @media (min-width: 1200px) {
-  .form-wrapper {
+  .form-wrap {
     width: 450px !important;
   }
 }
@@ -153,18 +152,18 @@ span.greet {
     font-size: 14px !important;
     line-height: 1.2rem;
   }
-  .form-wrapper {
+  .form-wrap {
     width: 85% !important;
   }
-  .form-wrapper button {
+  .form-wrap button {
     width: 30% !important;
   }
-  .form-wrapper input {
+  .form-wrap input {
     width: 65% !important;
   }
 }
 
-.form-wrapper {
+.form-wrap {
   /* padding: 15px; */
   margin: 20px auto 20px auto;
   background: #444;
@@ -180,7 +179,7 @@ span.greet {
     0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
-.form-wrapper input {
+.form-wrap input {
   width: 330px;
   margin: 10px 0px 10px 10px;
   height: 20px;
@@ -194,7 +193,7 @@ span.greet {
   border-radius: 3px 0 0 3px;
 }
 
-.form-wrapper input:focus {
+.form-wrap input:focus {
   outline: 0;
   background: #fff;
   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.8) inset;
@@ -202,25 +201,25 @@ span.greet {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.8) inset;
 }
 
-.form-wrapper input::-webkit-input-placeholder {
+.form-wrap input::-webkit-input-placeholder {
   color: #999;
   font-weight: normal;
   font-style: italic;
 }
 
-.form-wrapper input:-moz-placeholder {
+.form-wrap input:-moz-placeholder {
   color: #999;
   font-weight: normal;
   font-style: italic;
 }
 
-.form-wrapper input:-ms-input-placeholder {
+.form-wrap input:-ms-input-placeholder {
   color: #999;
   font-weight: normal;
   font-style: italic;
 }
 
-.form-wrapper button {
+.form-wrap button {
   overflow: visible;
   position: relative;
   float: right;
@@ -239,16 +238,16 @@ span.greet {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
 
-.form-wrapper button:hover {
+.form-wrap button:hover {
   background: #e54040;
 }
 
-.form-wrapper button:active,
-.form-wrapper button:focus {
+.form-wrap button:active,
+.form-wrap button:focus {
   background: #c42f2f;
 }
 
-.form-wrapper button:before {
+.form-wrap button:before {
   content: "";
   position: absolute;
   border-width: 8px 8px 8px 0;
@@ -258,15 +257,15 @@ span.greet {
   left: -6px;
 }
 
-.form-wrapper button:hover:before {
+.form-wrap button:hover:before {
   border-right-color: #e54040;
 }
 
-.form-wrapper button:focus:before {
+.form-wrap button:focus:before {
   border-right-color: #c42f2f;
 }
 
-.form-wrapper button::-moz-focus-inner {
+.form-wrap button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }

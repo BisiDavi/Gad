@@ -40,3 +40,14 @@
   float: right;
   margin: 5px;
 }
+
+@media (max-width: 768px) {
+  div#navbarResponsive {
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 600;
+    width: 90%;
+    top: 50px;
+    padding: 10px 20px 0px 20px;
+    position: absolute;
+  }
+}

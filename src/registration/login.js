@@ -1,6 +1,6 @@
 import React from 'react'
 import { Form, Formik, useField } from 'formik';
-import { LoginStyles } from '../styles/login';
+import '../styles/login.css';
 import * as Yup from 'yup';
 
 const CustomTextInput = ({ label, ...props }) => {
@@ -32,8 +32,7 @@ const CustomCheckbox = ({ children, ...props }) => {
 
 
 const Login = () => {
-  return (
-    <LoginStyles>
+  return (    
       <Formik
         initialValues={{
           phonenumber: '',
@@ -42,7 +41,7 @@ const Login = () => {
         }}
         validateSchema={
           Yup.object({
-            phonenumber: Yup.number()              
+            phonenumber: Yup.number()
               .required('Required'),
             password: Yup.string()
               .email('Invalid password')
@@ -75,8 +74,7 @@ const Login = () => {
             </Form>
           </div>
         )}
-      </Formik>
-    </LoginStyles>
+      </Formik>    
   )
 }
 
