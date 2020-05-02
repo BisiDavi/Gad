@@ -226,12 +226,20 @@
   .hex:nth-child(3n + 3) {
     /* first hexagon of even rows */
     margin-left: 25%; /* = width of .hex / 2  to indent even rows */
+  }
+  .hex:nth-child(3n) {
     display: none;
   }
-  .hex:nth-child(2n) {
+  .hex:nth-child(4n) {
     display: none;
   }
-  .hex:nth-child(5n) {
+  .hex:nth-child(7n) {
+    display: none;
+  }
+  .hex:nth-child(11) {
+    display: none;
+  }
+  .hex:nth-child(13) {
     display: none;
   }
   .grid {
@@ -244,7 +252,4 @@
   #hexGrid {
     font-size: 8px;
   }
-}
-
-@media only screen and (max-width: 768px) and (min-width: 300px) {
 }

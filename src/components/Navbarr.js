@@ -26,7 +26,7 @@ class Nav extends React.Component {
           <div className="container">
             <div className="logo">
               <Link to='/'>
-                <h1><span className="make_red">A1</span> Fitters</h1>
+                <h1><span className="make_red">A1 Pro </span>Limited</h1>
               </Link>
             </div>
             <button onClick={this.toggleNavbar} className={`${classTwo}`} type="button"
