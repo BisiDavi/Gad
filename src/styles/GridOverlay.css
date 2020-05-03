@@ -18,8 +18,14 @@
   }
 }
 
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .gridoverlay {
     margin-top: -56px;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 768px) {
+  .gridoverlay {
+    margin-top: -60px;
   }
 }

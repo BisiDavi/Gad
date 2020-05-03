@@ -3,15 +3,22 @@
   display: grid;
   position: absolute;
   color: black;
-  padding: 30px;
+  padding: 10px;
   z-index: 4;
-  top: 10rem;
+  top: 18rem;
   border-radius: 15px;
   left: 25rem;
 }
 
 .text-overlay h1 {
   font-size: 2rem;
+}
+
+@media (max-width: 1000px) and (min-width: 765px) {
+  .header-overlay {
+    top: 250px;
+    left: 100px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -31,7 +38,7 @@
   color: crimson;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 300px) {
+@media only screen and (max-width: 760px) and (min-width: 300px) {
   .header-overlay {
     left: 13% !important;
     padding: 5px !important;

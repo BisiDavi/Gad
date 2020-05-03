@@ -28,12 +28,12 @@ const Index = () => {
         <div className="artisans">
           <ImgCard name="Plumber" linkartisan="/plumber" imgsrc={plumber} imgalt="Hire a Plumber" />
           <ImgCard name="Electrician" linkartisan="/electrician" imgsrc={electricianwork} imgalt="Hire an Electrician" />
-          <ImgCard name="Hair Stylist" linkartisan="/fashion-designer" imgsrc={hairdresser} imgalt="Hire a hair stylist" />
-          <ImgCard name="Photographer" linkartisan="/photographer" imgsrc={photography} imgalt="Hire a Photographer" />
+          <ImgCard className="hairstylist" name="Hair Stylist" linkartisan="/fashion-designer" imgsrc={hairdresser} imgalt="Hire a hair stylist" />
+          <ImgCard className="photographer" name="Photographer" linkartisan="/photographer" imgsrc={photography} imgalt="Hire a Photographer" />
           <ImgCard name="Welder" linkartisan="/welder" imgsrc={welder2} imgalt="Hire a welder" />
           <ImgCard name="Mechanic" linkartisan="/mechanic" imgsrc={mechanic} imgalt="Hire a mechanic" />
-          <ImgCard name="Home Decor" linkartisan="/home-decor" imgsrc={homedecor2} imgalt="Hire a home decor" />
-          <ImgCard name="Event Planner" linkartisan="/event-planner" imgsrc={eventplanner} imgalt="Hire an event planner" />
+          <ImgCard  className="homedecor" name="Home Decor" linkartisan="/home-decor" imgsrc={homedecor2} imgalt="Hire a home decor" />
+          <ImgCard className="eventplanner" name="Event Planner" linkartisan="/event-planner" imgsrc={eventplanner} imgalt="Hire an event planner" />
         </div>
 
         <div className="searchArtisans">
