@@ -1,0 +1,8 @@
+.carousel .slide img {
+  height: 260px !important;
+}
+
+.carousel * {
+  box-sizing: border-box;
+  margin: 0 !important;
+}

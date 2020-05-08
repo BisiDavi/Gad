@@ -62,16 +62,27 @@ a {
   color: red;
 }
 
+@media (max-width: 600px) {
+  .footer-bottom {
+    grid-template-rows: repeat(2, 15px) !important;
+    grid-template-columns: none;
+    grid-row-gap: 2px;
+    padding: 5px;
+  }
+}
+
 @media only screen and (max-width: 600px) and (min-width: 300px) {
   .footer {
     grid-template-columns: auto;
     padding: 20px;
     grid-template-rows: auto 30px;
+    padding-bottom: 40px;
   }
   .footer-main {
     grid-template-columns: 180px auto;
     grid-template-rows: auto auto;
   }
+
   .section-1 a h4 {
     font-size: 1.5rem;
   }
@@ -86,6 +97,13 @@ a {
     text-align: center;
   }
   .section-2 h4 {
+    font-size: 1rem;
+  }
+  .footer-bottom p {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .footer-bottom .verrbtext {
     font-size: 1rem;
   }
 }
