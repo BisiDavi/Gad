@@ -1,0 +1,20 @@
+.contact-group {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-bottom: 20px;
+}
+
+.contact-image img {
+  background-size: cover;
+  width: 100%;
+}
+
+.contactme h1 {
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.contactus-form form {
+  padding: 0px 40px;
+  width: 90%;
+}

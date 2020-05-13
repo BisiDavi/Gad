@@ -5,7 +5,7 @@ import {
   Fashiondesigner, Painter, Plumber, Homedecor, Photographer, Eventplanner, Header, Footer, Stylist, Signup, Probutton,
   Task, Profile, Location, Confirm
 } from './partials';
-// import { Ripple } from 'react-preloaders';
+import { Ripple } from 'react-preloaders';
 import './App.css';
 import { Widget } from 'react-chat-widget';
 
@@ -63,7 +63,7 @@ function App() {
           {    /**<BottomNav />*/}
         </div>
       </Router>
-      {/**<Ripple background="blur" time={200} color="blue" />**/}
+      <Ripple background="blur" color="blue" />
     </React.Fragment>
   );
 }

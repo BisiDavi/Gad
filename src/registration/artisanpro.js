@@ -142,7 +142,7 @@ const Artisanpro = () => {
                     <CustomTextInput label="Guarantor's Address" name="guarantorAddress" type="text" placeholder="Where do your guarantor live? " />
                     <CustomTextInput label="Guarantor's Mobile" name="guarantorNumber" type="text" placeholder="Enter your guarantor's phone number" />
                   </div>
-                  <div className="about">
+                  <div className="about-gadpro">
                     <CustomTextArea label="About" name="guarantorAddress" type="text" rows="8" cols="50" placeholder="We want to know more about you?" />
                   </div>
                   <DropZone

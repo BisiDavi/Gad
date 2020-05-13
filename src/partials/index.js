@@ -36,6 +36,7 @@ export { default as makeschedule } from '../img/makeschedule.png';
 export { default as matched } from '../img/matched.png';
 export { default as taskdone } from '../img/taskdone.png';
 export { default as aboutus } from '../img/about-us.jpg';
+export { default as allartisans } from '../img/allartisans.jpg';
 
 
 // export { default as painter1 } from '../img/painter1.jpg';
