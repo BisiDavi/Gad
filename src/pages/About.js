@@ -4,15 +4,17 @@ import '../styles/about.css';
 
 const About = () => {
   return (
-    <div className="about">
-      <div className="text">
-        <h1> I am the about page </h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex numquam quaerat omnis amet placeat culpa voluptas aspernatur minus qui? Vero laborum illo placeat quaerat ab, dolorem mollitia nihil natus, esse rem perferendis iste voluptate distinctio ex libero. Dolores in nesciunt neque recusandae mollitia blanditiis hic vero, officia, est voluptatem sequi officiis deserunt possimus laborum, voluptate ducimus culpa voluptatum quam at doloremque similique aut rem! Provident cumque eligendi accusantium itaque quam beatae? Illum voluptates ea repudiandae aliquam deleniti asperiores accusantium veniam quae qui ducimus fugit inventore, non necessitatibus officia voluptas vitae nobis id? Nam soluta, doloribus dicta sit laborum animi iste.
+    <div className="about-container">
+      <h1> I am the about page </h1>
+      <div className="about">
+        <div className="text">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex numquam quaerat omnis amet placeat culpa voluptas aspernatur minus qui? Vero laborum illo placeat quaerat ab, dolorem mollitia nihil natus, esse rem perferendis iste voluptate distinctio ex libero. Dolores in nesciunt neque recusandae mollitia blanditiis hic vero, officia, est voluptatem sequi officiis deserunt possimus laborum, voluptate ducimus culpa voluptatum quam at doloremque similique aut rem! Provident cumque eligendi accusantium itaque quam beatae? Illum voluptates ea repudiandae aliquam deleniti asperiores accusantium veniam quae qui ducimus fugit inventore, non necessitatibus officia voluptas vitae nobis id? Nam soluta, doloribus dicta sit laborum animi iste.
       </p>
-      </div>
-      <div className="about-image">
-        <img src={aboutus} alt="about us" />
+        </div>
+        <div className="about-image">
+          <img src={aboutus} alt="about us" />
+        </div>
       </div>
     </div>
   )

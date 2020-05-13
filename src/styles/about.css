@@ -1,4 +1,22 @@
 .about {
   display: grid;
-  grid-template-columns: 5fr 2fr;
+  grid-template-columns: 3fr 3fr;
+}
+
+.about-image img {
+  background-size: cover;
+  width: 100%;
+}
+
+.about-container h1 {
+  background: lightgoldenrodyellow;
+  padding: 20px;
+  text-align: center;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.text p {
+  line-height: 2rem;
+  padding: 20px 60px;
 }
