@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf246f407dc5d065067485a23da20363",
+    "revision": "779e281e94acbfbff0271e7e6c4ea8f3",
     "url": "/Gad/index.html"
   },
   {
-    "revision": "12d223880b1edd3bdb1b",
-    "url": "/Gad/static/css/2.b90ce945.chunk.css"
+    "revision": "e07720b4030c172d6cf5",
+    "url": "/Gad/static/css/2.0319f013.chunk.css"
   },
   {
-    "revision": "0f2cce5f01e51561bedc",
-    "url": "/Gad/static/css/main.d3a59cc3.chunk.css"
+    "revision": "92eaa92cfea92dac3c5f",
+    "url": "/Gad/static/css/main.5820386f.chunk.css"
   },
   {
-    "revision": "12d223880b1edd3bdb1b",
-    "url": "/Gad/static/js/2.412a4986.chunk.js"
+    "revision": "e07720b4030c172d6cf5",
+    "url": "/Gad/static/js/2.dd5209d3.chunk.js"
   },
   {
-    "revision": "2af46ce20da443391360ab054a900962",
-    "url": "/Gad/static/js/2.412a4986.chunk.js.LICENSE.txt"
+    "revision": "ba137f86e52d5396a1265b1fa852a1f5",
+    "url": "/Gad/static/js/2.dd5209d3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0f2cce5f01e51561bedc",
-    "url": "/Gad/static/js/main.0ba7203e.chunk.js"
+    "revision": "92eaa92cfea92dac3c5f",
+    "url": "/Gad/static/js/main.910a54ed.chunk.js"
   },
   {
     "revision": "19b9db6a517e21626914",
@@ -32,16 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Gad/static/media/Salon.b50f33b3.jpg"
   },
   {
+    "revision": "bd7bdd47c758bec4147e42fc8050fd0b",
+    "url": "/Gad/static/media/allartisans.bd7bdd47.jpg"
+  },
+  {
     "revision": "4fa81ae80ded205c1ffeeac3c89c5cff",
     "url": "/Gad/static/media/artisan-grid.4fa81ae8.png"
   },
   {
-    "revision": "d23a740cf95d50b01481c57175f6ad18",
-    "url": "/Gad/static/media/bricklayer.d23a740c.jpg"
-  },
-  {
-    "revision": "8ddbdab9da089a8900561ea7acb3208e",
-    "url": "/Gad/static/media/camera.8ddbdab9.jpg"
+    "revision": "351ab33cdd8ebf217cd0b13c66f500c7",
+    "url": "/Gad/static/media/description.351ab33c.png"
   },
   {
     "revision": "3c30684545470f5a685e445eeecf5697",
@@ -68,32 +68,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Gad/static/media/hair-spray.4c80b40b.jpg"
   },
   {
-    "revision": "01bb8f355a810865c21aad33abeb036f",
-    "url": "/Gad/static/media/home-decor.01bb8f35.jpg"
+    "revision": "b81cce2c23a5617f13302ce1af89247f",
+    "url": "/Gad/static/media/makeschedule.b81cce2c.png"
   },
   {
-    "revision": "9d3809a0f1dd87cb77334d02270566cf",
-    "url": "/Gad/static/media/homedecor.9d3809a0.jpg"
+    "revision": "9bb76a93d018edb5ad84eb66c7574e4c",
+    "url": "/Gad/static/media/matched.9bb76a93.png"
   },
   {
     "revision": "c255c553d066706e3ee367503a92ab96",
     "url": "/Gad/static/media/mechanic.c255c553.jpg"
   },
   {
-    "revision": "63334fd9d9f99f4cdb4994ace1c267a0",
-    "url": "/Gad/static/media/painter.63334fd9.jpg"
-  },
-  {
     "revision": "e9db0cdc7a352daa1b3c1344a6ba4749",
     "url": "/Gad/static/media/painterhouse.e9db0cdc.png"
   },
   {
-    "revision": "8e3f5fb036d2d177c6ae28167ba8bbca",
-    "url": "/Gad/static/media/plumbers.8e3f5fb0.jpg"
-  },
-  {
     "revision": "5b0795bba10d3db978114ad93228b874",
     "url": "/Gad/static/media/schedule.5b0795bb.png"
+  },
+  {
+    "revision": "9eacdc21680a37f0e5af8d2a4157f418",
+    "url": "/Gad/static/media/taskdone.9eacdc21.png"
   },
   {
     "revision": "533bc9ab6ec79edb1fb46a1e586cba49",
@@ -102,9 +98,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aecc568691705ad40c87faa2177eb50d",
     "url": "/Gad/static/media/welder-2.aecc5686.jpg"
-  },
-  {
-    "revision": "b6c442c3d98ac1ece725762b9e7e2a21",
-    "url": "/Gad/static/media/welder.b6c442c3.png"
   }
 ]);
