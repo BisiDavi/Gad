@@ -4,10 +4,10 @@ export { default as electrician } from '../img/electrician.jpg';
 export { default as fashiondesigner } from '../img/fashiondesigner.jpg';
 export { default as mechanic } from '../img/mechanic.jpg';
 export { default as painterhouse } from '../img/painterhouse.png';
-export { default as painter } from '../img/painter.jpg';
-export { default as plumber } from '../img/plumbers.jpg';
+export { default as painter } from '../img/painter1.jpg';
+export { default as plumber } from '../img/plumber.jpg';
 export { default as Salon } from '../img/Salon.jpg';
-export { default as welder } from '../img/welder.png';
+export { default as welder } from '../img/welder-2.jpg';
 export { default as hairdresser } from '../img/hair-spray.jpg';
 export { default as electricianwork } from '../img/electrican-at-work.jpg';
 export { default as artisanGrid } from '../img/artisan-grid.png';
@@ -16,11 +16,8 @@ export { default as photography } from '../img/photography.jpg';
 export { default as todo } from '../img/todo.png';
 export { default as getMatched } from '../img/get-matched.png';
 export { default as done } from '../img/done.png';
-export { default as homedecor } from '../img/home-decor.jpg';
 export { default as homedecor2 } from '../img/homedecor.jpg';
 export { default as eventplanner } from '../img/event-planner.jpg';
-export { default as camera } from '../img/camera.jpg';
-export { default as welder2 } from '../img/welder-2.jpg';
 export { default as makeup } from '../img/makeup.jpg';
 export { default as acrepair } from '../img/acrepair.jpg';
 export { default as avatar1 } from '../img/avatars/avatar1.jpg';
@@ -38,6 +35,7 @@ export { default as description } from '../img/description.png';
 export { default as makeschedule } from '../img/makeschedule.png';
 export { default as matched } from '../img/matched.png';
 export { default as taskdone } from '../img/taskdone.png';
+export { default as aboutus } from '../img/about-us.jpg';
 
 
 // export { default as painter1 } from '../img/painter1.jpg';
@@ -67,6 +65,15 @@ export { default as HeaderOverlay } from './Header-overlay';
 export { default as HireArtisan } from './HireArtisan';
 
 
+/** modal */
+export { default as Mainmodal } from '../Modal/Mainmodal';
+export { default as Task } from '../Modal/Task';
+export { default as Location } from '../Modal/Location';
+export { default as Profile } from '../Modal/Profile';
+export { default as Confirm } from '../Modal/Confirm';
+
+
+
 /** components */
 export { default as Button } from '../components/Button';
 export { default as ImgCard } from '../components/ImgCard';
@@ -80,6 +87,7 @@ export { default as Probutton } from '../components/probutton';
 export { default as BlinkText } from '../components/BlinkText';
 export { default as Nav } from '../components/Navbarr';
 export { default as HireCarousel } from '../components/Hirecarousel';
+export { default as Progressbar } from '../components/progressbar';
 
 /**  pages*/
 export { default as About } from '../pages/About';

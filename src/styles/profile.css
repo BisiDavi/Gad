@@ -1,0 +1,12 @@
+.row-group span {
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+}
+
+.row-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+    

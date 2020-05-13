@@ -1,7 +1,7 @@
 .login {
   display: grid;
   justify-content: center;
-  margin: 10px 500px 200px 500px;
+  margin: 10px 500px 20px 500px;
   color: white;
   border-radius: 20px;
   padding: 20px;
@@ -27,7 +27,7 @@
 
 .login-wrapper {
   padding: 10px;
-  height: 400px;
+  height: 350px;
   background: rgba(0, 0, 0, 0.8);
 }
 

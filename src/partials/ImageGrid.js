@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/imagegrid.css';
 import {
-  bricklayer, homedecor, camera, electrician, fashiondesigner, Grid, makeup,
+  bricklayer, homedecor2, photography, electrician, fashiondesigner, Grid, makeup,
   eventplanner, mechanic, painterhouse, painter, plumber, Salon, welder, acrepair
 } from '.'
 
@@ -54,7 +54,7 @@ let ImageGrid = () => {
         />
         <Grid
           linkroute="/home-decor"
-          gridimg={homedecor}
+          gridimg={homedecor2}
           imgalt="hire a homedecor"
           text1="Need a Professional homedecor"
         />
@@ -91,7 +91,7 @@ let ImageGrid = () => {
         />
         <Grid
           linkroute="/photographer"
-          gridimg={camera}
+          gridimg={photography}
           imgalt="hire a Photographer"
           text1="Need a Professional Photographer"
         />

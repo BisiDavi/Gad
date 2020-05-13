@@ -57,6 +57,12 @@ a {
   color: red;
   font-size: 25px;
 }
+.copyright p {
+  margin: 9px 0px;
+}
+.footer-bottom p {
+  margin-bottom: 0px !important;
+}
 
 .verrb {
   color: red;

@@ -1,6 +1,6 @@
 import React from 'react';
-import {  Formik, useField } from 'formik';
-import { Form,Datepicker, DropZone } from 'react-formik-ui';
+import { Formik, useField } from 'formik';
+import { Form, Datepicker, DropZone } from 'react-formik-ui';
 import * as Yup from 'yup';
 import '../styles/artisanpro.css';
 
@@ -83,8 +83,7 @@ const Artisanpro = () => {
                 confirmpassword: Yup.string()
                   .oneOf([Yup.ref('createPassword'), null], 'Passwords must match')
                   .required('Password must match'),
-                dateExample8: Yup
-                  .date()
+                dateExample8: Yup.date()
                   .required('enter your date of birth'),
                 stateofResidence: Yup.string()
                   .required('enter your state of residence'),

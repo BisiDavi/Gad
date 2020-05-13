@@ -31,7 +31,7 @@ let Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&#169; copyright 2020. All Rights Reserved </p>
+        <span className="copyright"><p>&#169; copyright 2020. All Rights Reserved </p></span>
         <p className="verrbtext">Made with <span className="love">&#9829;</span>  <span className="verrb">By Verrb Inc.</span></p>
       </div>
     </div>

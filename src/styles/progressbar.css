@@ -1,0 +1,23 @@
+ul.progressbar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.progressbar li {
+  list-style: none;
+  border: 4px solid rgba(40, 70, 124, 1);
+  padding: 35px;
+  border-radius: 50%;
+  font-size: 25px;
+  margin: auto;
+}
+
+.progressbar li:before {
+  border: 4px solid rgba(40, 70, 124, 1);
+  padding: 20px;
+}
+
+.progressbar li:after{
+   border: 4px solid rgba(40, 70, 124, 1);
+  padding: 20px;
+}

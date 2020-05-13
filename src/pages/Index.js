@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Index.css';
 import {
   hairdresser, electricianwork, photography, mechanic, homedecor2, HireArtisan, HireCarousel,
-  plumber, todo, schedule, getMatched, done, ImgCard, welder2, eventplanner, GridOverlay
+  plumber, todo, schedule, getMatched, done, ImgCard, welder, eventplanner, GridOverlay
 } from '../partials';
 
 
@@ -30,7 +30,7 @@ const Index = () => {
           <ImgCard name="Electrician" linkartisan="/electrician" imgsrc={electricianwork} imgalt="Hire an Electrician" />
           <ImgCard className="hairstylist" name="Hair Stylist" linkartisan="/fashion-designer" imgsrc={hairdresser} imgalt="Hire a hair stylist" />
           <ImgCard className="photographer" name="Photographer" linkartisan="/photographer" imgsrc={photography} imgalt="Hire a Photographer" />
-          <ImgCard name="Welder" linkartisan="/welder" imgsrc={welder2} imgalt="Hire a welder" />
+          <ImgCard name="Welder" linkartisan="/welder" imgsrc={welder} imgalt="Hire a welder" />
           <ImgCard name="Mechanic" linkartisan="/mechanic" imgsrc={mechanic} imgalt="Hire a mechanic" />
           <ImgCard className="homedecor" name="Home Decor" linkartisan="/home-decor" imgsrc={homedecor2} imgalt="Hire a home decor" />
           <ImgCard className="eventplanner" name="Event Planner" linkartisan="/event-planner" imgsrc={eventplanner} imgalt="Hire an event planner" />
@@ -45,7 +45,7 @@ const Index = () => {
 
         <div className="showinMobile">
           <h3>How It Works</h3>
-          <HireCarousel />
+          {/**<HireCarousel */}
         </div>
 
         <div className="howGadWorks">

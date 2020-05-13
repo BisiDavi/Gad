@@ -32,49 +32,49 @@ const CustomCheckbox = ({ children, ...props }) => {
 
 
 const Login = () => {
-  return (    
-      <Formik
-        initialValues={{
-          phonenumber: '',
-          password: '',
-          acceptedTerms: false,
-        }}
-        validateSchema={
-          Yup.object({
-            phonenumber: Yup.number()
-              .required('Required'),
-            password: Yup.string()
-              .email('Invalid password')
-              .required('Required'),
-            acceptedTerms: Yup.boolean()
-              .required('Required')
-              .oneOf([true], 'You must accept the terms and condition')
-          })}
-        onSubmit={(values, { setSubmitting, resetForm }) => {
-          setTimeout(() => {
-            alert(JSON.stringify(values, null, 2));
-            resetForm();
-            setSubmitting(false);
-          }, 3000)
-        }
-        }
-      >
-        {props => (
-          <div className="login-wrapper">
-            <Form className="login">
-              <h1>Welcome</h1>
-              <CustomTextInput label="Phone number" name="phonenumber" type="text" placeholder="Enter your phone number" />
-              <CustomTextInput label="Password" name="password" type="password" placeholder="Enter your password" />
-              <CustomCheckbox name="acceptedTerms">
-                I accept the terms and conditions
+  return (
+    <Formik
+      initialValues={{
+        phonenumber: '',
+        password: '',
+        acceptedTerms: false,
+      }}
+      validateSchema={
+        Yup.object({
+          phonenumber: Yup.number()
+            .required('Required'),
+          password: Yup.string()
+            .email('Invalid password')
+            .required('Required'),
+          acceptedTerms: Yup.boolean()
+            .required('Required')
+            .oneOf([true], 'You must accept the terms and condition')
+        })}
+      onSubmit={(values, { setSubmitting, resetForm }) => {
+        setTimeout(() => {
+          alert(JSON.stringify(values, null, 2));
+          resetForm();
+          setSubmitting(false);
+        }, 3000)
+      }
+      }
+    >
+      {props => (
+        <div className="login-wrapper">
+          <Form className="login">
+            <h1>Welcome</h1>
+            <CustomTextInput label="Phone number" name="phonenumber" type="text" placeholder="Enter your phone number" />
+            <CustomTextInput label="Password" name="password" type="password" placeholder="Enter your password" />
+            <CustomCheckbox name="acceptedTerms">
+              I accept the terms and conditions
               </CustomCheckbox>
-              <button type="submit">
-                {props.isSubmitting ? 'Loading ...' : 'Login'}
-              </button>
-            </Form>
-          </div>
-        )}
-      </Formik>    
+            <button type="submit">
+              {props.isSubmitting ? 'Loading ...' : 'Login'}
+            </button>
+          </Form>
+        </div>
+      )}
+    </Formik>
   )
 }
 

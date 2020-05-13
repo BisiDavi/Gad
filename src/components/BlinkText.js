@@ -25,11 +25,11 @@ class BlinkText extends React.Component {
   }
 
   componentDidUpdate() {
-    setTimeout(this.blink, 1000)
+    setTimeout(this.blink, 3000)
   }
 
   componentDidMount() {
-    setTimeout(this.blink, 1000)
+    setTimeout(this.blink, 3000)
   }
 
 }
