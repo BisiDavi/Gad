@@ -69,7 +69,7 @@ const Signup = () => {
       >
         {props => (
           <div className="signup-wrapper">
-            <Form className="signup">
+          <Form className="signup">            
               <h1>Welcome</h1>
               <CustomTextInput label="Fullname" name="fullname" type="text" placeholder="enter your full name" />
               <CustomTextInput label="Phone number" name="phonenumber" type="text" placeholder="enter your phone number" />

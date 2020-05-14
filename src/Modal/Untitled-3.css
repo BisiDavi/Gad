@@ -1,0 +1,27 @@
+@media screen and (max-width: 800px) {
+  .rcw-widget-container {
+    height: 50vh !important;
+    position: absolute;
+    bottom: 0;
+    width: 90% !important;
+    margin: 0;
+    max-width: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .contactus-form form {
+    width: 90%;
+  }
+  .contact-image img {
+    position: absolute;
+    z-index: 45;
+    left: 0;
+  }
+  .contactus-form {
+    margin: 0px !important;
+    position: relative;
+    z-index: 60;
+  }
+}

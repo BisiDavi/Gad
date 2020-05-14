@@ -11,7 +11,7 @@ let currentHour = currentTime.getHours();
 const condition12 = currentHour < 12;
 const condition16 = currentHour < 16;
 const greet = ["Good Morning ,", "Good Afternoon ,", "Good Evening ,"];
-const greetings = condition12 ? <h1><span className="greet">{greet[0]}</span> Get your task done by Professionals, <span className="make_red">Hire now</span> ? </h1> : condition16 ? <h1><span className="greet">{greet[1]}</span> Get your task done by Professionals, <span className="make_red">Hire now</span></h1> : <h1><span className="greet">{greet[2]}</span> Get your task done by Professionals, <span className="make_red">Hire now</span></h1>;
+const greetings = condition12 ? <h1><span className="greet">{greet[0]}</span> Get your task done by Professionals, <span className="make_red">Hire now</span> </h1> : condition16 ? <h1><span className="greet">{greet[1]}</span> Get your task done by Professionals, <span className="make_red">Hire now</span></h1> : <h1><span className="greet">{greet[2]}</span> Get your task done by Professionals, <span className="make_red">Hire now</span></h1>;
 
 
 const Index = () => {

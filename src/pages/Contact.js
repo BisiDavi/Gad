@@ -3,6 +3,7 @@ import { Formik, useField } from 'formik';
 import { Form } from 'react-formik-ui';
 import * as Yup from 'yup';
 import { allartisans } from '../partials';
+import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 import '../styles/contact.css';
 
 const CustomTextInput = ({ label, ...props }) => {
@@ -31,7 +32,14 @@ const CustomTextArea = ({ label, ...props }) => {
   )
 }
 
-
+const MyMapComponent = withScriptjs(withGoogleMap((props) =>
+  <GoogleMap
+    defaultZoom={8}
+    defaultCenter={{ lat: 4.8206, lng: 7.0552}}
+  >
+    {props.isMarkerShown && <Marker position={{ lat: 4.8206, lng: 7.0552 }} />}
+  </GoogleMap>
+))
 
 const Contact = () => {
   return (
@@ -80,6 +88,15 @@ const Contact = () => {
         <div className="contact-image">
           <img src={allartisans} alt="contact us" />
         </div>
+      </div>
+      <div className="google-map">
+        <MyMapComponent
+          isMarkerShown
+          googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvCAe73B2epWuZ8arIP7jneugv8bHQejc&v=3.exp&libraries=geometry,drawing,places"
+          loadingElement={<div style={{ height: `100%` }} />}
+          containerElement={<div style={{ height: `400px` }} />}
+          mapElement={<div style={{ height: `100%` }} />}
+        />
       </div>
     </div>
   )

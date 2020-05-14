@@ -5,8 +5,8 @@
   color: white;
   border-radius: 20px;
   background: hsla(182, 68%, 75%, 0.6);
-  grid-gap: 10px;
-  grid-template-rows: 30px 10px 30px 10px 30px 10px 30px 10px 30px 10px 30px;
+  /* grid-gap: 10px; */
+  /* grid-template-rows: 50px 10px 30px 10px 10px 10px 30px 10px 30px 10px 30px; */
 }
 .signup button {
   grid-template-rows: 10px !important;
@@ -15,6 +15,8 @@
   color: white;
   height: 30px;
   background-color: black;
+  margin-bottom: 15px;
+  border-color: transparent;
   border-radius: 10px;
 }
 .signup button:hover {
@@ -22,6 +24,7 @@
 }
 .signup h1 {
   text-align: center;
+  margin: 10px 0px;
 }
 .error {
   color: red;
@@ -31,7 +34,7 @@
   background: rgba(0, 0, 0, 0.8);
 }
 .signup input.text-input {
-  width: 290px;
+  height: 30px;
 }
 
 @media (max-width: 768px) {

@@ -13,8 +13,7 @@ let Footer = () => {
           </Link>
           <Link to="/about">About us</Link>
           <li><a href="#service">Terms of Services</a></li>
-          <li><a href="#policy">Privacy Policy</a></li>
-          <Link to="/services">Services</Link>
+          <li><a href="#policy">Privacy Policy</a></li>          
           <Link to="/contact">Contact us</Link>
         </div>
         <div className="section-2">
@@ -28,6 +27,12 @@ let Footer = () => {
             <input className="footer-input" placeholder="Enter your email" />
             <input className="submit" type="submit"></input>
           </form>
+          <div className="social-icons">
+            <a href="#facebook"><i className="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#twitter"><i className="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#linkedin"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="#instagram"><i className="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
         </div>
       </div>
       <div className="footer-bottom">

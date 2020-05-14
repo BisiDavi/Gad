@@ -91,7 +91,7 @@ class Task extends React.Component {
 
                 <div className="mymodal taskdescription">
                   <label htmlFor="Task Description" name="Task Description*">Task Description* </label>
-                  <textarea defaultValue={values.taskdescription} onChange={handleFormChanges('taskcategory')} className="task-description" type="text" rows="3" cols="50"
+                  <textarea defaultValue={values.taskdescription} onChange={handleFormChanges('taskcategory')} className="task-description" type="text" rows="3" cols="10"
                     placeholder="Do you have additonal request we should know about? " />
                 </div>
 

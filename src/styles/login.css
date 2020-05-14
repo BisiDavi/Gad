@@ -7,7 +7,7 @@
   padding: 20px;
   background: hsla(182, 68%, 75%, 0.6);
   grid-gap: 10px;
-  grid-template-rows: 30px 20px 30px 20px 30px 20px 30px;
+  grid-template-rows: 50px 20px 30px 20px 30px 20px 30px;
 }
 .login button {
   grid-template-rows: 10px !important;
@@ -17,6 +17,7 @@
   height: 30px;
   background-color: black;
   border-radius: 10px;
+  border: transparent;
 }
 .login button:hover {
   background: red;

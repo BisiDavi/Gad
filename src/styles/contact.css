@@ -18,3 +18,29 @@
   padding: 0px 40px;
   width: 90%;
 }
+
+@media (max-width: 800px) {
+  .contactus-form form {
+    width: 100% !important;
+  }
+  .contact-image img {
+    position: absolute;
+    z-index: 45;
+    left: 0;
+  }
+  .contactus-form {
+    margin: 0px !important;
+    position: relative;
+    z-index: 60;
+  }
+  button.submitForm {
+    border-color: transparent;
+    text-align: center;
+    background: blue;
+    color: white;
+    border-radius: 7px;
+    font-weight: bold;
+    width: 25% !important;
+    padding: 6px;
+  }
+}

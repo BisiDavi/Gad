@@ -17,6 +17,7 @@
     "react-chat-widget": "^3.0.1",
     "react-dom": "^16.13.1",
     "react-formik-ui": "^4.1.2",
+    "react-google-maps": "^9.4.5",
     "react-lazy-load": "^3.0.13",
     "react-preloaders": "^3.0.3",
     "react-responsive-modal": "^5.0.2",

@@ -49,7 +49,7 @@ button.submitmodal {
   background-color: rgba(40, 70, 124, 1);
   padding: 30px;
   margin: -20px 0px 20px -35px;
-  width: 112.1%;
+  width: 109.5%;
 }
 .mymodal-content p {
   text-align: center;
@@ -58,6 +58,10 @@ button.submitmodal {
 textarea.task-description[placeholder] {
   padding: 10px;
   font-style: italic;
+}
+
+.react-responsive-modal-modalCenter {
+  width: 100%;
 }
 
 /* Location */
