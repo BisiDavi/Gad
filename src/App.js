@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import {
   About, Services, Contact, Index, Bricklayer, Electrician, Mechanic, Login, Makeup, Welder, Acrepair, Artisanpro,
-  Fashiondesigner, Painter, Plumber, Homedecor, Photographer, Eventplanner, Header, Footer, Stylist, Signup, Probutton,
+  Fashiondesigner, dispatchrider, Painter, Plumber, Homedecor, Photographer, Eventplanner, Header, Footer, Stylist, Signup, Probutton,
   Task, Profile, Location, Confirm
 } from './partials';
 import { Ripple } from 'react-preloaders';
@@ -33,7 +33,7 @@ function App() {
             <Route path="/electrician" component={Electrician} />
             <Route path="/fashion-designer" component={Fashiondesigner} />
             <Route path="/mechanic" component={Mechanic} />
-            <Route path="/canvas-painter" component={Painter} />
+            <Route path="/dispatch-rider" component={dispatchrider} />
             <Route path="/bricklayer" component={Bricklayer} />
             <Route path="/login" component={Login} />
             <Route path="/signup" component={Signup} />
@@ -50,7 +50,7 @@ function App() {
             <Route path="/bricklayer" component={Bricklayer} />
             <Route path="/welder" component={Welder} />
             <Route path="/home-decor" component={Homedecor} />
-            <Route path="/painter" component={Painter} />
+            <Route path="/painter" component={dispatchrider} />
             <Route path="/gadpro" component={Artisanpro} />
             <Route path="/task" component={Task} />
             <Route path="/modal-profile" component={Profile} />

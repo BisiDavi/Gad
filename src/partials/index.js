@@ -37,6 +37,8 @@ export { default as matched } from '../img/matched.png';
 export { default as taskdone } from '../img/taskdone.png';
 export { default as aboutus } from '../img/about-us.jpg';
 export { default as allartisans } from '../img/allartisans.jpg';
+export { default as dispatch_rider } from '../img/dispatch_rider.jpg';
+
 
 
 // export { default as painter1 } from '../img/painter1.jpg';
@@ -103,8 +105,9 @@ export { default as Eventplanner } from '../artisans/eventplanner';
 export { default as Electrician } from '../artisans/Electrician';
 export { default as Fashiondesigner } from '../artisans/FashionDesigner';
 export { default as Mechanic } from '../artisans/Mechanic';
-export { default as Painter } from '../artisans/Painter';
+export { default as dispatchrider } from '../artisans/dispatch-rider';
 export { default as Plumber } from '../artisans/Plumbers';
+export { default as Painter } from '../artisans/Painter';
 export { default as Photographer } from '../artisans/Photographer.js';
 export { default as Welder } from '../artisans/welder';
 export { default as Homedecor } from '../artisans/homedecor';

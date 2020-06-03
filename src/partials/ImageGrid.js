@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/imagegrid.css';
 import {
   bricklayer, homedecor2, photography, electrician, fashiondesigner, Grid, makeup,
-  eventplanner, mechanic, painterhouse, painter, plumber, Salon, welder, acrepair
+  eventplanner, mechanic, painterhouse, dispatch_rider, plumber, Salon, welder, acrepair
 } from '.'
 
 
@@ -71,10 +71,10 @@ let ImageGrid = () => {
           text1="Need a Professional Eventplanner"
         />
         <Grid
-          linkroute="/canvas-painter"
-          gridimg={painter}
-          imgalt="hire a canvas painter"
-          text1="Need a Professional Canvas Painter"
+          linkroute="/dispatch-rider"
+          gridimg={dispatch_rider}
+          imgalt="hire a dispatch rider"
+          text1="Need a Professional Dispatch Rider"
         />
 
         <Grid
