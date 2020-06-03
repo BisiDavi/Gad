@@ -61,7 +61,14 @@ textarea.task-description[placeholder] {
 }
 
 .react-responsive-modal-modalCenter {
-  width: 100%;
+  width: 50%;
+}
+
+li.wrench {
+  background-color: rgba(40, 70, 124, 1);
+}
+li.wrench i{
+color:white;
 }
 
 /* Location */

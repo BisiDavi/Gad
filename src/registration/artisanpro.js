@@ -14,7 +14,7 @@ const CustomTextInput = ({ label, ...props }) => {
         <div className="error">{meta.error}</div>
       ) : null}
     </div>
-  )
+  ) 
 }
 const CustomTextArea = ({ label, ...props }) => {
   const [field, meta] = useField(props);
@@ -116,13 +116,13 @@ const Artisanpro = () => {
             {props => (
               <div className="artisanpro-wrapper">
                 <Form className="bepro">
-                  <CustomTextInput label="Full name" name="fullname" type="text" placeholder="Enter your Full name" />
+                  <CustomTextInput label="Full name" name="fullname" type="text" placeholder="Full name" />
                   <CustomTextInput label="Select Service Offered" name="service" type="text" placeholder="Select a service you render" />
                   <div className="double">
-                    <CustomTextInput label="Email" name="email" type="email" placeholder="Enter your email" />
-                    <CustomTextInput label="Mobile Number" name="phonenumber" type="text" placeholder="Enter your phone number" />
-                    <CustomTextInput label="Create Password" name="createpassword" type="password" placeholder="Create a password" />
-                    <CustomTextInput label="Confirm Password" name="confirmpassword" type="password" placeholder="Confirm your password" />
+                    <CustomTextInput label="Email" name="email" type="email" placeholder="Email" />
+                    <CustomTextInput label="Mobile Number" name="phonenumber" type="text" placeholder="Phone number" />
+                    <CustomTextInput label="Create Password" name="createpassword" type="password" placeholder="Password" />
+                    <CustomTextInput label="Confirm Password" name="confirmpassword" type="password" placeholder="Password" />
                     <Datepicker
                       name="dateExample8"
                       label="Enter your date of birth"
@@ -132,15 +132,15 @@ const Artisanpro = () => {
                       required
                     />
                     <CustomTextInput label="State of Residence" name="stateofResidence" type="text" placeholder="Select an option" />
-                    <CustomTextInput label="Address" name="address" type="text" placeholder="Where do you live ?" />
+                    <CustomTextInput label="Address" name="address" type="text" placeholder="Address" />
                     <CustomTextInput label="Bank" name="bank" type="text" placeholder="Select a bank" />
-                    <CustomTextInput label="Account Name" name="accountName" type="text" placeholder="Enter your bank account name" />
-                    <CustomTextInput label="Account Number" name="accountNumber" type="text" placeholder="Enter your bank account number" />
+                    <CustomTextInput label="Account Name" name="accountName" type="text" placeholder="Bank account name" />
+                    <CustomTextInput label="Account Number" name="accountNumber" type="text" placeholder="Bank account number" />
                   </div>
                   <div className="triple">
-                    <CustomTextInput label="Guarantor" name="guarantor" type="text" placeholder="Enter your guarnator's full name" />
-                    <CustomTextInput label="Guarantor's Address" name="guarantorAddress" type="text" placeholder="Where do your guarantor live? " />
-                    <CustomTextInput label="Guarantor's Mobile" name="guarantorNumber" type="text" placeholder="Enter your guarantor's phone number" />
+                    <CustomTextInput label="Guarantor" name="guarantor" type="text" placeholder="Guarantor's full name" />
+                    <CustomTextInput label="Guarantor's Address" name="guarantorAddress" type="text" placeholder="Guarantor's address? " />
+                    <CustomTextInput label="Guarantor's Mobile" name="guarantorNumber" type="text" placeholder="Guarantor's phone number" />
                   </div>
                   <div className="about-gadpro">
                     <CustomTextArea label="About" name="guarantorAddress" type="text" rows="8" cols="50" placeholder="We want to know more about you?" />

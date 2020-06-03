@@ -7,16 +7,16 @@ import {
 } from './partials';
 import { Ripple } from 'react-preloaders';
 import './App.css';
-import { Widget } from 'react-chat-widget';
+// import { Widget } from 'react-chat-widget';
 
-import 'react-chat-widget/lib/styles.css';
+// import 'react-chat-widget/lib/styles.css';
 
 function App() {
 
-  const handleNewUserMessage = (newMessage) => {
-    console.log(`New message incoming! ${newMessage}`);
-    // Now send the message throught the backend API    
-  };
+  // const handleNewUserMessage = (newMessage) => {
+  //   console.log(`New message incoming! ${newMessage}`);
+  //   // Now send the message throught the backend API    
+  // };
 
   return (
     <React.Fragment>
@@ -58,7 +58,7 @@ function App() {
             <Route path="/modal-confirm" component={Confirm} />
             <Index />
           </Switch>
-          <Widget handleNewUserMessage={handleNewUserMessage} />
+          {/**<Widget handleNewUserMessage={handleNewUserMessage} /> */}
           <Footer />
           {    /**<BottomNav />*/}
         </div>

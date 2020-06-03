@@ -14,7 +14,8 @@ class Mainmodal extends React.Component {
     location: '',
     date: '',
     phonenumber: '',
-    email: ''
+    email: '',
+    liName: ''
   }
 
   nextPage = () => {
@@ -36,6 +37,7 @@ class Mainmodal extends React.Component {
       [input]: e.target.value
     })
   }
+
 
   render() {
     const { step } = this.state;

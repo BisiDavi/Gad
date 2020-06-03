@@ -7,10 +7,10 @@ import '../styles/modal.css';
 
 
 class Task extends React.Component {
-
   continue = e => {
     e.preventDefault();
     this.props.nextPage();
+    this.props.addAnimation();
   }
 
   render() {
