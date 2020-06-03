@@ -14,7 +14,7 @@ const CustomTextInput = ({ label, ...props }) => {
         <div className="error">{meta.error}</div>
       ) : null}
     </div>
-  ) 
+  )
 }
 const CustomTextArea = ({ label, ...props }) => {
   const [field, meta] = useField(props);
@@ -116,34 +116,54 @@ const Artisanpro = () => {
             {props => (
               <div className="artisanpro-wrapper">
                 <Form className="bepro">
-                  <CustomTextInput label="Full name" name="fullname" type="text" placeholder="Full name" />
-                  <CustomTextInput label="Select Service Offered" name="service" type="text" placeholder="Select a service you render" />
-                  <div className="double">
-                    <CustomTextInput label="Email" name="email" type="email" placeholder="Email" />
-                    <CustomTextInput label="Mobile Number" name="phonenumber" type="text" placeholder="Phone number" />
-                    <CustomTextInput label="Create Password" name="createpassword" type="password" placeholder="Password" />
-                    <CustomTextInput label="Confirm Password" name="confirmpassword" type="password" placeholder="Password" />
-                    <Datepicker
-                      name="dateExample8"
-                      label="Enter your date of birth"
-                      dateFormat="dd.MM.yyyy"
-                      placeholder="dd.mm.yyyy"
-                      disabledKeyboardNavigation={false}
-                      required
-                    />
-                    <CustomTextInput label="State of Residence" name="stateofResidence" type="text" placeholder="Select an option" />
-                    <CustomTextInput label="Address" name="address" type="text" placeholder="Address" />
-                    <CustomTextInput label="Bank" name="bank" type="text" placeholder="Select a bank" />
+                  <CustomTextInput className="form-control" label="Full name" name="fullname" type="text" placeholder="Full name" />
+                  <CustomTextInput className="form-control" label="Select Service Offered" name="service" type="text" placeholder="Select a service you render" />
+                  <div className="double row">
+                    <div className="col">
+                      <CustomTextInput label="Email" className="form-control" name="email" type="email" placeholder="Email" />
+                      <small className="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div className="col">
+                      <CustomTextInput label="Mobile Number" className="form-control" name="phonenumber" type="text" placeholder="Phone number" />
+                    </div>
+                    <div className="col">
+                      <CustomTextInput label="Create Password" className="form-control" name="createpassword" type="password" placeholder="Password" />
+                    </div>
+                    <div className="col">
+                      <CustomTextInput label="Confirm Password" className="form-control" name="confirmpassword" type="password" placeholder="Password" />
+                    </div>
+                    <div className="col">
+                      <Datepicker
+                        name="dateExample8"
+                        label="Enter your date of birth"
+                        dateFormat="dd.MM.yyyy"
+                        placeholder="dd.mm.yyyy"
+                        disabledKeyboardNavigation={false}
+                        className="form-control"
+                        required
+                      />
+                    </div>
+                    <div className="col">
+                      <CustomTextInput label="State of Residence" className="form-control" name="stateofResidence" type="text" placeholder="Select an option" />
+                    </div>
+                    <CustomTextInput label="Address" className="form-control" name="address" type="text" placeholder="Address" />
+                    {/**<CustomTextInput label="Bank" name="bank" type="text" placeholder="Select a bank" />
                     <CustomTextInput label="Account Name" name="accountName" type="text" placeholder="Bank account name" />
-                    <CustomTextInput label="Account Number" name="accountNumber" type="text" placeholder="Bank account number" />
+            <CustomTextInput label="Account Number" name="accountNumber" type="text" placeholder="Bank account number" />*/}
                   </div>
-                  <div className="triple">
-                    <CustomTextInput label="Guarantor" name="guarantor" type="text" placeholder="Guarantor's full name" />
-                    <CustomTextInput label="Guarantor's Address" name="guarantorAddress" type="text" placeholder="Guarantor's address? " />
-                    <CustomTextInput label="Guarantor's Mobile" name="guarantorNumber" type="text" placeholder="Guarantor's phone number" />
+                  <div className="triple row">
+                    <div className="col">
+                      <CustomTextInput label="Guarantor" className="form-control" name="guarantor" type="text" placeholder="Guarantor's full name" />
+                    </div>
+                    <div className="col">
+                      <CustomTextInput label="Guarantor's Address" className="form-control" name="guarantorAddress" type="text" placeholder="Guarantor's address? " />
+                    </div>
+                    <div className="col">
+                      <CustomTextInput label="Guarantor's Mobile" className="form-control" name="guarantorNumber" type="text" placeholder="Guarantor's phone number" />
+                    </div>
                   </div>
                   <div className="about-gadpro">
-                    <CustomTextArea label="About" name="guarantorAddress" type="text" rows="8" cols="50" placeholder="We want to know more about you?" />
+                    <CustomTextArea label="About" row="2" className="form-control" name="guarantorAddress" type="text" rows="8" cols="50" placeholder="We want to know more about you?" />
                   </div>
                   <DropZone
                     name='image'
